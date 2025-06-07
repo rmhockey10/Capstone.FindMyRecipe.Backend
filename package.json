@@ -1,5 +1,5 @@
 {
-  "name": "foobar",
+  "name": "find_my_recipe",
   "type": "module",
   "imports": {
     "#*": "./*.js"
