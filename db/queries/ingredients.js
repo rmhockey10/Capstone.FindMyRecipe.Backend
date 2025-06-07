@@ -7,7 +7,7 @@ import db from "#db/client";
  * @returns {Promise<Object|null>} The newly created ingredient object, or null if the ingredient already exists.
  */
 export async function createIngredient(name) {
-  const sql = `
+  const insertSql = `
   INSERT INTO ingredients
     (name)
   VALUES
@@ -15,10 +15,17 @@ export async function createIngredient(name) {
   ON CONFLICT
     (name)
     DO NOTHING
-  RETURNING *
+  `;
+  await db.query(insertSql, [name]);
+
+  const selectSql = `
+  SELECT *
+  FROM ingredients
+  Where
+  name = $1
   `;
   const {
     rows: [ingredient],
-  } = await db.query(sql, [name]);
+  } = await db.query(selectSql, [name]);
   return ingredient;
 }

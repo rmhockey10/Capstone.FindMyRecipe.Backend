@@ -17,12 +17,12 @@ import db from "#db/client";
 export async function createRecipe(
   name,
   instructions,
-  prep_time_minutes,
-  cook_time_minutes,
+  prepTimeMinutes,
+  cookTimeMinutes,
   cuisine,
   servings,
   difficulty,
-  calories_per_serving,
+  caloriesPerServing,
   image
 ) {
   const sql = `
@@ -37,12 +37,12 @@ export async function createRecipe(
   } = await db.query(sql, [
     name,
     instructions,
-    prep_time_minutes,
-    cook_time_minutes,
+    prepTimeMinutes,
+    cookTimeMinutes,
     cuisine,
     servings,
     difficulty,
-    calories_per_serving,
+    caloriesPerServing,
     image,
   ]);
   return recipe;
