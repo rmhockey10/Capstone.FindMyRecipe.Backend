@@ -47,3 +47,70 @@ export async function createRecipe(
   ]);
   return recipe;
 }
+
+/**
+ * Retrieves all recipes from the database.
+ * @returns {Promise<Array>} An array of all recipes.
+ */
+export async function getRecipes() {
+  const sql = `
+  SELECT *
+  FROM recipes
+  `;
+  const { rows: recipes } = await db.query(sql);
+  return recipes;
+}
+
+/**
+ * Retrieves a single recipe by its ID.
+ * @param {number} id - The ID of the recipe to retrieve.
+ * @returns {Promise<Object|undefined>} The recipe.
+ */
+export async function getRecipeById(id) {
+  const sql = `
+  SELECT *
+  FROM recipes
+  WHERE id = $1
+  `;
+  const {
+    rows: [recipe],
+  } = await db.query(sql, [id]);
+  return recipe;
+}
+
+/**
+ * Finds recipes that contain ALL of a given list of ingredients.
+ * @param {string[]} ingredientNames - An array of ingredient names to search for.
+ * @returns {Promise<Object[]>} An array of recipes that match.
+ */
+export async function getRecipeByIngredients(ingredients) {
+  if (!ingredients || ingredients.length === 0) {
+    return [];
+  }
+
+  const ingredientCount = ingredients.length;
+  const ingredientPlaceholders = ingredients
+    .map((_, i) => `$${i + 1}`)
+    .join(", ");
+
+  const sql = `
+    SELECT *
+    FROM recipes
+    JOIN
+      recipes_ingredients ON recipes.id = recipes_ingredients.recipes_id
+    JOIN
+      ingredients ON recipes_ingredients.ingredients_id = ingredients.id
+    WHERE
+      ingredients.name IN (${ingredientPlaceholders})
+    GROUP BY
+      recipes.id
+    HAVING
+      COUNT(DISTINCT ingredients.id) = $${ingredientCount + 1};
+  `;
+
+  const params = [...ingredients, ingredientCount];
+  const {
+    rows: [recipe],
+  } = await db.query(sql, params);
+  return recipe;
+}
