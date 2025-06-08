@@ -26,3 +26,8 @@ router
     const token = await createToken({ id: user.id });
     res.send(token);
   });
+
+router.route("/user").get(requireUser, async (req, res) => {
+  const { id, username } = req.user;
+  res.send({ id, username });
+});
