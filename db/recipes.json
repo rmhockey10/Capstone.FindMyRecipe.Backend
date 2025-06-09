@@ -1,0 +1,1402 @@
+[
+  {
+    "name": "Classic Margherita Pizza",
+    "ingredients": [
+      "Pizza dough",
+      "Tomato sauce",
+      "Fresh mozzarella cheese",
+      "Fresh basil leaves",
+      "Olive oil",
+      "Salt",
+      "Pepper"
+    ],
+    "instructions": [
+      "Preheat the oven to 475°F (245°C).",
+      "Roll out the pizza dough and spread tomato sauce evenly.",
+      "Top with slices of fresh mozzarella and fresh basil leaves.",
+      "Drizzle with olive oil and season with salt and pepper.",
+      "Bake in the preheated oven for 12-15 minutes or until the crust is golden brown.",
+      "Slice and serve hot."
+    ],
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 15,
+    "servings": 4,
+    "difficulty": "Easy",
+    "cuisine": "Italian",
+    "caloriesPerServing": 300,
+    "image": "https://cdn.dummyjson.com/recipe-images/1.webp"
+  },
+  {
+    "name": "Vegetarian Stir-Fry",
+    "ingredients": [
+      "Tofu",
+      "Broccoli florets",
+      "Carrots",
+      "Bell peppers",
+      "Soy sauce",
+      "Ginger",
+      "Garlic",
+      "Sesame oil",
+      "Rice"
+    ],
+    "instructions": [
+      "In a wok, heat sesame oil over medium-high heat.",
+      "Add minced ginger and garlic, sauté until fragrant.",
+      "Add cubed tofu and stir-fry until golden brown.",
+      "Add broccoli, carrots, and bell peppers. Cook until vegetables are tender-crisp.",
+      "Pour soy sauce over the stir-fry and toss to combine.",
+      "Serve over cooked rice."
+    ],
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 3,
+    "difficulty": "Medium",
+    "cuisine": "Asian",
+    "caloriesPerServing": 250,
+    "image": "https://cdn.dummyjson.com/recipe-images/2.webp"
+  },
+  {
+    "name": "Chocolate Chip Cookies",
+    "ingredients": [
+      "All-purpose flour",
+      "Butter",
+      "Brown sugar",
+      "White sugar",
+      "Eggs",
+      "Vanilla extract",
+      "Baking soda",
+      "Salt",
+      "Chocolate chips"
+    ],
+    "instructions": [
+      "Preheat the oven to 350°F (175°C).",
+      "In a bowl, cream together softened butter, brown sugar, and white sugar.",
+      "Beat in eggs one at a time, then stir in vanilla extract.",
+      "Combine flour, baking soda, and salt. Gradually add to the wet ingredients.",
+      "Fold in chocolate chips.",
+      "Drop rounded tablespoons of dough onto ungreased baking sheets.",
+      "Bake for 10-12 minutes or until edges are golden brown.",
+      "Allow cookies to cool on the baking sheet for a few minutes before transferring to a wire rack."
+    ],
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 10,
+    "servings": 24,
+    "difficulty": "Easy",
+    "cuisine": "American",
+    "caloriesPerServing": 150,
+    "image": "https://cdn.dummyjson.com/recipe-images/3.webp"
+  },
+  {
+    "name": "Chicken Alfredo Pasta",
+    "ingredients": [
+      "Fettuccine pasta",
+      "Chicken breasts",
+      "Heavy cream",
+      "Parmesan cheese",
+      "Garlic",
+      "Butter",
+      "Salt",
+      "Pepper",
+      "Fresh parsley"
+    ],
+    "instructions": [
+      "Cook fettuccine pasta according to package instructions.",
+      "In a pan, sauté sliced chicken in butter until fully cooked.",
+      "Add minced garlic and cook until fragrant.",
+      "Pour in heavy cream and grated Parmesan cheese. Stir until the cheese is melted.",
+      "Season with salt and pepper to taste.",
+      "Combine the Alfredo sauce with cooked pasta.",
+      "Garnish with fresh parsley before serving."
+    ],
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 4,
+    "difficulty": "Medium",
+    "cuisine": "Italian",
+    "caloriesPerServing": 500,
+    "image": "https://cdn.dummyjson.com/recipe-images/4.webp"
+  },
+  {
+    "name": "Mango Salsa Chicken",
+    "ingredients": [
+      "Chicken thighs",
+      "Mango",
+      "Red onions",
+      "Cilantro",
+      "Lime juice",
+      "Jalapeño",
+      "Salt",
+      "Pepper",
+      "Rice"
+    ],
+    "instructions": [
+      "Season chicken thighs with salt and pepper.",
+      "Grill or bake chicken until fully cooked.",
+      "In a bowl, combine diced mango, chopped red onion, cilantro, minced jalapeño, and lime juice.",
+      "Dice the cooked chicken and mix it with the mango salsa.",
+      "Serve over cooked rice."
+    ],
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 25,
+    "servings": 3,
+    "difficulty": "Easy",
+    "cuisine": "Mexican",
+    "caloriesPerServing": 380,
+    "image": "https://cdn.dummyjson.com/recipe-images/5.webp"
+  },
+  {
+    "name": "Quinoa Salad with Avocado",
+    "ingredients": [
+      "Quinoa",
+      "Avocado",
+      "Cherry tomatoes",
+      "Cucumbers",
+      "Red bell pepper",
+      "Feta cheese",
+      "Lemon vinaigrette dressing",
+      "Salt",
+      "Pepper"
+    ],
+    "instructions": [
+      "In a large bowl, combine cooked quinoa, diced avocado, halved cherry tomatoes, diced cucumber, diced red bell pepper, and crumbled feta cheese.",
+      "Drizzle with lemon vinaigrette dressing and toss to combine.",
+      "Season with salt and pepper to taste.",
+      "Chill in the refrigerator before serving."
+    ],
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 15,
+    "servings": 4,
+    "difficulty": "Easy",
+    "cuisine": "Mediterranean",
+    "caloriesPerServing": 280,
+    "image": "https://cdn.dummyjson.com/recipe-images/6.webp"
+  },
+  {
+    "name": "Tomato Basil Bruschetta",
+    "ingredients": [
+      "Baguette",
+      "Tomatoes",
+      "Fresh basil",
+      "Garlic",
+      "Balsamic glaze",
+      "Olive oil",
+      "Salt",
+      "Pepper"
+    ],
+    "instructions": [
+      "Preheat the oven to 375°F (190°C).",
+      "Place baguette slices on a baking sheet and toast in the oven until golden brown.",
+      "In a bowl, combine diced tomatoes, chopped fresh basil, minced garlic, and a drizzle of olive oil.",
+      "Season with salt and pepper to taste.",
+      "Top each toasted baguette slice with the tomato-basil mixture.",
+      "Drizzle with balsamic glaze before serving."
+    ],
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 10,
+    "servings": 6,
+    "difficulty": "Easy",
+    "cuisine": "Italian",
+    "caloriesPerServing": 120,
+    "image": "https://cdn.dummyjson.com/recipe-images/7.webp"
+  },
+  {
+    "name": "Beef and Broccoli Stir-Fry",
+    "ingredients": [
+      "Beef sirloin",
+      "Broccoli florets",
+      "Soy sauce",
+      "Oyster sauce",
+      "Sesame oil",
+      "Garlic",
+      "Ginger",
+      "Cornstarch",
+      "Rice"
+    ],
+    "instructions": [
+      "In a bowl, mix soy sauce, oyster sauce, sesame oil, and cornstarch to create the sauce.",
+      "In a wok, stir-fry thinly sliced beef until browned. Remove from the wok.",
+      "Stir-fry broccoli florets, minced garlic, and minced ginger in the same wok.",
+      "Add the cooked beef back to the wok and pour the sauce over the mixture.",
+      "Stir until everything is coated and heated through.",
+      "Serve over cooked white rice."
+    ],
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 15,
+    "servings": 4,
+    "difficulty": "Medium",
+    "cuisine": "Asian",
+    "caloriesPerServing": 380,
+    "image": "https://cdn.dummyjson.com/recipe-images/8.webp"
+  },
+  {
+    "name": "Caprese Salad",
+    "ingredients": [
+      "Tomatoes",
+      "Fresh mozzarella cheese",
+      "Fresh basil leaves",
+      "Balsamic glaze",
+      "Extra virgin olive oil",
+      "Salt",
+      "Pepper"
+    ],
+    "instructions": [
+      "Arrange alternating slices of tomatoes and fresh mozzarella on a serving platter.",
+      "Tuck fresh basil leaves between the slices.",
+      "Drizzle with balsamic glaze and extra virgin olive oil.",
+      "Season with salt and pepper to taste.",
+      "Serve immediately as a refreshing salad."
+    ],
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 0,
+    "servings": 2,
+    "difficulty": "Easy",
+    "cuisine": "Italian",
+    "caloriesPerServing": 200,
+    "image": "https://cdn.dummyjson.com/recipe-images/9.webp"
+  },
+  {
+    "name": "Shrimp Scampi Pasta",
+    "ingredients": [
+      "Linguine pasta",
+      "Shrimp",
+      "Garlic",
+      "White wine",
+      "Lemon juice",
+      "Red pepper flakes",
+      "Fresh parsley",
+      "Salt",
+      "Pepper"
+    ],
+    "instructions": [
+      "Cook linguine pasta according to package instructions.",
+      "In a skillet, sauté minced garlic in olive oil until fragrant.",
+      "Add shrimp and cook until pink and opaque.",
+      "Pour in white wine and lemon juice. Simmer until the sauce slightly thickens.",
+      "Season with red pepper flakes, salt, and pepper.",
+      "Toss cooked linguine in the shrimp scampi sauce.",
+      "Garnish with chopped fresh parsley before serving."
+    ],
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 3,
+    "difficulty": "Medium",
+    "cuisine": "Italian",
+    "caloriesPerServing": 400,
+    "image": "https://cdn.dummyjson.com/recipe-images/10.webp"
+  },
+  {
+    "name": "Chicken Biryani",
+    "ingredients": [
+      "Basmati rice",
+      "Chicken thighs",
+      "Onions",
+      "Tomatoes",
+      "Yogurt",
+      "Ginger-garlic paste",
+      "Biryani masala",
+      "Green chilies",
+      "Fresh coriander leaves",
+      "Mint leaves",
+      "Ghee",
+      "Salt"
+    ],
+    "instructions": [
+      "Marinate chicken with yogurt, ginger-garlic paste, biryani masala, and salt.",
+      "In a pot, sauté sliced onions until golden brown. Remove half for later use.",
+      "Layer marinated chicken, chopped tomatoes, half of the fried onions, and rice in the pot.",
+      "Top with ghee, green chilies, fresh coriander leaves, mint leaves, and the remaining fried onions.",
+      "Cover and cook on low heat until the rice is fully cooked and aromatic.",
+      "Serve hot, garnished with additional coriander and mint leaves."
+    ],
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 45,
+    "servings": 6,
+    "difficulty": "Medium",
+    "cuisine": "Pakistani",
+    "caloriesPerServing": 550,
+    "image": "https://cdn.dummyjson.com/recipe-images/11.webp"
+  },
+  {
+    "name": "Chicken Karahi",
+    "ingredients": [
+      "Chicken thighs",
+      "Tomatoes",
+      "Green chilies",
+      "Ginger",
+      "Garlic",
+      "Coriander powder",
+      "Cumin powder",
+      "Red chili powder",
+      "Garam masala",
+      "Cooking oil",
+      "Fresh coriander leaves",
+      "Salt"
+    ],
+    "instructions": [
+      "In a wok (karahi), heat cooking oil and sauté minced garlic until golden brown.",
+      "Add chicken pieces and cook until browned on all sides.",
+      "Add chopped tomatoes, green chilies, ginger, and spices. Cook until tomatoes are soft.",
+      "Cover and simmer until the chicken is tender and the oil separates from the masala.",
+      "Garnish with fresh coriander leaves and serve hot with naan or rice."
+    ],
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 30,
+    "servings": 4,
+    "difficulty": "Easy",
+    "cuisine": "Pakistani",
+    "caloriesPerServing": 420,
+    "image": "https://cdn.dummyjson.com/recipe-images/12.webp"
+  },
+  {
+    "name": "Aloo Keema",
+    "ingredients": [
+      "Ground beef",
+      "Potatoes",
+      "Onions",
+      "Tomatoes",
+      "Ginger-garlic paste",
+      "Cumin powder",
+      "Coriander powder",
+      "Turmeric powder",
+      "Red chili powder",
+      "Cooking oil",
+      "Fresh coriander leaves",
+      "Salt"
+    ],
+    "instructions": [
+      "In a pan, heat cooking oil and sauté chopped onions until golden brown.",
+      "Add ginger-garlic paste and sauté until fragrant.",
+      "Add ground beef and cook until browned. Drain excess oil if needed.",
+      "Add diced potatoes, chopped tomatoes, and spices. Mix well.",
+      "Cover and simmer until the potatoes are tender and the masala is well-cooked.",
+      "Garnish with fresh coriander leaves and serve hot with naan or rice."
+    ],
+    "prepTimeMinutes": 25,
+    "cookTimeMinutes": 35,
+    "servings": 5,
+    "difficulty": "Medium",
+    "cuisine": "Pakistani",
+    "caloriesPerServing": 380,
+    "image": "https://cdn.dummyjson.com/recipe-images/13.webp"
+  },
+  {
+    "name": "Chapli Kebabs",
+    "ingredients": [
+      "Ground beef",
+      "Onions",
+      "Tomatoes",
+      "Green chilies",
+      "Coriander leaves",
+      "Pomegranate seeds",
+      "Ginger-garlic paste",
+      "Cumin powder",
+      "Coriander powder",
+      "Red chili powder",
+      "Eggs",
+      "Cooking oil",
+      "Salt"
+    ],
+    "instructions": [
+      "In a large bowl, mix ground beef, chopped onions, tomatoes, green chilies, coriander leaves, and pomegranate seeds.",
+      "Add ginger-garlic paste, cumin powder, coriander powder, red chili powder, and salt. Mix well.",
+      "Add an egg to bind the mixture and form into round flat kebabs.",
+      "Heat cooking oil in a pan and shallow fry the kebabs until browned on both sides.",
+      "Serve hot with naan or mint chutney."
+    ],
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 20,
+    "servings": 4,
+    "difficulty": "Medium",
+    "cuisine": "Pakistani",
+    "caloriesPerServing": 320,
+    "image": "https://cdn.dummyjson.com/recipe-images/14.webp"
+  },
+  {
+    "name": "Saag (Spinach) with Makki di Roti",
+    "ingredients": [
+      "Mustard greens",
+      "Spinach",
+      "Cornmeal",
+      "Onions",
+      "Green chilies",
+      "Ginger",
+      "Ghee",
+      "Salt"
+    ],
+    "instructions": [
+      "Boil mustard greens and spinach until tender. Drain and blend into a coarse paste.",
+      "In a pan, sauté chopped onions, green chilies, and grated ginger in ghee until golden brown.",
+      "Add the greens paste and cook until it thickens.",
+      "Meanwhile, knead cornmeal with water to make a dough. Roll into rotis (flatbreads).",
+      "Cook the rotis on a griddle until golden brown.",
+      "Serve hot saag with makki di roti and a dollop of ghee."
+    ],
+    "prepTimeMinutes": 40,
+    "cookTimeMinutes": 30,
+    "servings": 3,
+    "difficulty": "Medium",
+    "cuisine": "Pakistani",
+    "caloriesPerServing": 280,
+    "image": "https://cdn.dummyjson.com/recipe-images/15.webp"
+  },
+  {
+    "name": "Japanese Ramen Soup",
+    "ingredients": [
+      "Ramen noodles",
+      "Chicken broth",
+      "Soy sauce",
+      "Mirin",
+      "Sesame oil",
+      "Shiitake mushrooms",
+      "Bok choy",
+      "Green onions",
+      "Eggs",
+      "Chicken thighs",
+      "Norwegian seaweed (nori)"
+    ],
+    "instructions": [
+      "Cook ramen noodles according to package instructions and set aside.",
+      "In a pot, combine chicken broth, soy sauce, mirin, and sesame oil. Bring to a simmer.",
+      "Add sliced shiitake mushrooms and chopped bok choy. Cook until vegetables are tender.",
+      "Divide the cooked noodles into serving bowls and ladle the hot broth over them.",
+      "Top with green onions, soft-boiled eggs, grilled chicken slices, and nori.",
+      "Serve hot and enjoy the authentic Japanese ramen!"
+    ],
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 25,
+    "servings": 2,
+    "difficulty": "Medium",
+    "cuisine": "Japanese",
+    "caloriesPerServing": 480,
+    "image": "https://cdn.dummyjson.com/recipe-images/16.webp"
+  },
+  {
+    "name": "Moroccan Chickpea Tagine",
+    "ingredients": [
+      "Chickpeas",
+      "Tomatoes",
+      "Carrots",
+      "Onions",
+      "Garlic",
+      "Cumin",
+      "Coriander",
+      "Cinnamon",
+      "Paprika",
+      "Vegetable broth",
+      "Olives",
+      "Fresh cilantro"
+    ],
+    "instructions": [
+      "In a tagine or large pot, sauté chopped onions and minced garlic until softened.",
+      "Add diced carrots, chopped tomatoes, and cooked chickpeas.",
+      "Season with cumin, coriander, cinnamon, and paprika. Stir to coat.",
+      "Pour in vegetable broth and bring to a simmer. Cook until carrots are tender.",
+      "Stir in olives and garnish with fresh cilantro before serving.",
+      "Serve this flavorful Moroccan dish with couscous or crusty bread."
+    ],
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 30,
+    "servings": 4,
+    "difficulty": "Easy",
+    "cuisine": "Moroccan",
+    "caloriesPerServing": 320,
+    "image": "https://cdn.dummyjson.com/recipe-images/17.webp"
+  },
+  {
+    "name": "Korean Bibimbap",
+    "ingredients": [
+      "Rice",
+      "Beef bulgogi",
+      "Carrots",
+      "Spinach",
+      "Zucchini",
+      "Bean sprouts",
+      "Eggs",
+      "Gochujang (Korean red pepper paste)",
+      "Sesame oil",
+      "Sesame seeds"
+    ],
+    "instructions": [
+      "Arrange cooked white rice in a bowl.",
+      "Top with beef bulgogi, sautéed carrots, seasoned spinach, grilled zucchini, and blanched bean sprouts.",
+      "Place a fried egg on top and drizzle with gochujang and sesame oil.",
+      "Sprinkle with toasted sesame seeds before serving.",
+      "Mix everything together before enjoying this delicious Korean bibimbap!",
+      "Feel free to customize with additional vegetables or protein."
+    ],
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 20,
+    "servings": 2,
+    "difficulty": "Medium",
+    "cuisine": "Korean",
+    "caloriesPerServing": 550,
+    "image": "https://cdn.dummyjson.com/recipe-images/18.webp"
+  },
+  {
+    "name": "Greek Moussaka",
+    "ingredients": [
+      "Eggplants",
+      "Ground lamb or beef",
+      "Onions",
+      "Garlic",
+      "Tomatoes",
+      "Red wine",
+      "Cinnamon",
+      "Allspice",
+      "Nutmeg",
+      "Olive oil",
+      "Milk",
+      "Flour",
+      "Parmesan cheese",
+      "Egg yolks"
+    ],
+    "instructions": [
+      "Preheat oven to 375°F (190°C).",
+      "Sauté sliced eggplants in olive oil until browned. Set aside.",
+      "In the same pan, cook chopped onions and minced garlic until softened.",
+      "Add ground lamb or beef and brown. Stir in crushed tomatoes, red wine, and spices.",
+      "In a separate saucepan, make béchamel sauce: melt butter, whisk in flour, add milk, and cook until thickened.",
+      "Remove from heat and stir in Parmesan cheese and egg yolks.",
+      "In a baking dish, layer eggplants and meat mixture. Top with béchamel sauce.",
+      "Bake for 40-45 minutes until golden brown. Let it cool before slicing.",
+      "Serve slices of moussaka warm and enjoy this Greek classic!"
+    ],
+    "prepTimeMinutes": 45,
+    "cookTimeMinutes": 45,
+    "servings": 6,
+    "difficulty": "Medium",
+    "cuisine": "Greek",
+    "caloriesPerServing": 420,
+    "image": "https://cdn.dummyjson.com/recipe-images/19.webp"
+  },
+  {
+    "name": "Butter Chicken (Murgh Makhani)",
+    "ingredients": [
+      "Chicken thighs",
+      "Yogurt",
+      "Ginger-garlic paste",
+      "Garam masala",
+      "Kashmiri red chili powder",
+      "Tomato puree",
+      "Butter",
+      "Heavy cream",
+      "Kasuri methi (dried fenugreek leaves)",
+      "Sugar",
+      "Salt"
+    ],
+    "instructions": [
+      "Marinate chicken thighs in a mixture of yogurt, ginger-garlic paste, garam masala, and Kashmiri red chili powder.",
+      "In a pan, melt butter and sauté the marinated chicken until browned.",
+      "Add tomato puree and cook until the oil separates. Stir in heavy cream.",
+      "Sprinkle kasuri methi, sugar, and salt. Simmer until the chicken is fully cooked.",
+      "Serve this creamy butter chicken over rice or with naan for an authentic Pakistani/Indian experience."
+    ],
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 25,
+    "servings": 4,
+    "difficulty": "Medium",
+    "cuisine": "Pakistani",
+    "caloriesPerServing": 480,
+    "image": "https://cdn.dummyjson.com/recipe-images/20.webp"
+  },
+  {
+    "name": "Thai Green Curry",
+    "ingredients": [
+      "Chicken thighs",
+      "Green curry paste",
+      "Coconut milk",
+      "Fish sauce",
+      "Sugar",
+      "Eggplants",
+      "Bell peppers",
+      "Basil leaves",
+      "Jasmine rice"
+    ],
+    "instructions": [
+      "In a pot, simmer green curry paste in coconut milk.",
+      "Add chicken, fish sauce, and sugar. Cook until chicken is tender.",
+      "Stir in sliced eggplant and bell peppers. Simmer until vegetables are cooked.",
+      "Garnish with fresh basil leaves.",
+      "Serve hot over jasmine rice and enjoy this Thai classic!"
+    ],
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 30,
+    "servings": 4,
+    "difficulty": "Medium",
+    "cuisine": "Thai",
+    "caloriesPerServing": 480,
+    "image": "https://cdn.dummyjson.com/recipe-images/21.webp"
+  },
+  {
+    "name": "Mango Lassi",
+    "ingredients": [
+      "Mango",
+      "Yogurt",
+      "Milk",
+      "Honey",
+      "Cardamom powder",
+      "Ice cubes"
+    ],
+    "instructions": [
+      "In a blender, combine diced mango, yogurt, milk, honey, and cardamom powder.",
+      "Blend until smooth and creamy.",
+      "Add ice cubes and blend again until the lassi is chilled.",
+      "Pour into glasses and garnish with a sprinkle of cardamom.",
+      "Enjoy this refreshing Mango Lassi!"
+    ],
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 0,
+    "servings": 2,
+    "difficulty": "Easy",
+    "cuisine": "Indian",
+    "caloriesPerServing": 180,
+    "image": "https://cdn.dummyjson.com/recipe-images/22.webp"
+  },
+  {
+    "name": "Italian Tiramisu",
+    "ingredients": [
+      "Espresso",
+      "Ladyfinger cookies",
+      "Mascarpone cheese",
+      "Heavy cream",
+      "Sugar",
+      "Cocoa powder"
+    ],
+    "instructions": [
+      "In a bowl, whip heavy cream until stiff peaks form.",
+      "In another bowl, mix mascarpone cheese and sugar until smooth.",
+      "Gently fold the whipped cream into the mascarpone mixture.",
+      "Dip ladyfinger cookies into brewed espresso and layer them in a serving dish.",
+      "Spread a layer of the mascarpone mixture over the cookies.",
+      "Repeat layers and finish with a dusting of cocoa powder.",
+      "Chill in the refrigerator for a few hours before serving.",
+      "Indulge in the decadence of this classic Italian Tiramisu!"
+    ],
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 0,
+    "servings": 6,
+    "difficulty": "Medium",
+    "cuisine": "Italian",
+    "caloriesPerServing": 350,
+    "image": "https://cdn.dummyjson.com/recipe-images/23.webp"
+  },
+  {
+    "name": "Turkish Kebabs",
+    "ingredients": [
+      "Ground lamb or beef",
+      "Onions",
+      "Garlic",
+      "Parsley",
+      "Cumin",
+      "Coriander",
+      "Red pepper flakes",
+      "Salt",
+      "Pepper",
+      "Flatbread",
+      "Tahini sauce"
+    ],
+    "instructions": [
+      "In a bowl, mix ground meat, grated onions, minced garlic, chopped parsley, and spices.",
+      "Form the mixture into kebab shapes and grill until fully cooked.",
+      "Serve the kebabs on flatbread with a drizzle of tahini sauce.",
+      "Enjoy these flavorful Turkish Kebabs with your favorite sides."
+    ],
+    "prepTimeMinutes": 25,
+    "cookTimeMinutes": 15,
+    "servings": 4,
+    "difficulty": "Easy",
+    "cuisine": "Turkish",
+    "caloriesPerServing": 280,
+    "image": "https://cdn.dummyjson.com/recipe-images/24.webp"
+  },
+  {
+    "name": "Blueberry Banana Smoothie",
+    "ingredients": [
+      "Blueberries",
+      "Banana",
+      "Greek yogurt",
+      "Almond milk",
+      "Honey",
+      "Chia seeds"
+    ],
+    "instructions": [
+      "In a blender, combine blueberries, banana, Greek yogurt, almond milk, and honey.",
+      "Blend until smooth and creamy.",
+      "Add chia seeds for extra nutrition and blend briefly.",
+      "Pour into a glass and enjoy this nutritious Blueberry Banana Smoothie!"
+    ],
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 0,
+    "servings": 1,
+    "difficulty": "Easy",
+    "cuisine": "Smoothie",
+    "caloriesPerServing": 220,
+    "image": "https://cdn.dummyjson.com/recipe-images/25.webp"
+  },
+  {
+    "name": "Mexican Street Corn (Elote)",
+    "ingredients": [
+      "Corn on the cob",
+      "Mayonnaise",
+      "Cotija cheese",
+      "Chili powder",
+      "Lime"
+    ],
+    "instructions": [
+      "Grill or roast corn on the cob until kernels are charred.",
+      "Brush each cob with mayonnaise, then sprinkle with crumbled Cotija cheese and chili powder.",
+      "Serve with lime wedges for squeezing over the top.",
+      "Enjoy this delicious and flavorful Mexican Street Corn!"
+    ],
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 15,
+    "servings": 4,
+    "difficulty": "Easy",
+    "cuisine": "Mexican",
+    "caloriesPerServing": 180,
+    "image": "https://cdn.dummyjson.com/recipe-images/26.webp"
+  },
+  {
+    "name": "Russian Borscht",
+    "ingredients": [
+      "Beets",
+      "Cabbage",
+      "Potatoes",
+      "Onions",
+      "Carrots",
+      "Tomato paste",
+      "Beef or vegetable broth",
+      "Garlic",
+      "Bay leaves",
+      "Sour cream"
+    ],
+    "instructions": [
+      "In a pot, sauté chopped onions and garlic until softened.",
+      "Add shredded beets, cabbage, diced potatoes, grated carrots, and tomato paste.",
+      "Pour in broth and add bay leaves. Simmer until vegetables are tender.",
+      "Serve hot with a dollop of sour cream on top.",
+      "Enjoy the hearty and comforting flavors of Russian Borscht!"
+    ],
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 40,
+    "servings": 6,
+    "difficulty": "Medium",
+    "cuisine": "Russian",
+    "caloriesPerServing": 220,
+    "image": "https://cdn.dummyjson.com/recipe-images/27.webp"
+  },
+  {
+    "name": "South Indian Masala Dosa",
+    "ingredients": [
+      "Dosa batter",
+      "Potatoes",
+      "Onions",
+      "Mustard seeds",
+      "Cumin seeds",
+      "Curry leaves",
+      "Turmeric powder",
+      "Green chilies",
+      "Ghee",
+      "Coconut chutney"
+    ],
+    "instructions": [
+      "In a pan, heat ghee and add mustard seeds, cumin seeds, and curry leaves.",
+      "Add chopped onions, green chilies, and turmeric powder. Sauté until onions are golden brown.",
+      "Mix in boiled and mashed potatoes. Cook until well combined and seasoned.",
+      "Spread dosa batter on a hot griddle to make thin pancakes.",
+      "Place a spoonful of the potato mixture in the center, fold, and serve hot.",
+      "Pair with coconut chutney for a delicious South Indian meal."
+    ],
+    "prepTimeMinutes": 40,
+    "cookTimeMinutes": 20,
+    "servings": 4,
+    "difficulty": "Medium",
+    "cuisine": "Indian",
+    "caloriesPerServing": 320,
+    "image": "https://cdn.dummyjson.com/recipe-images/28.webp"
+  },
+  {
+    "name": "Lebanese Falafel Wrap",
+    "ingredients": [
+      "Falafel balls",
+      "Whole wheat wraps",
+      "Tomatoes",
+      "Cucumbers",
+      "Red onions",
+      "Lettuce",
+      "Tahini sauce",
+      "Fresh parsley"
+    ],
+    "instructions": [
+      "Warm falafel balls according to package instructions.",
+      "Place a generous serving of falafel in the center of each wrap.",
+      "Top with diced tomatoes, sliced cucumbers, red onions, shredded lettuce, and fresh parsley.",
+      "Drizzle with tahini sauce and wrap tightly.",
+      "Enjoy this Lebanese Falafel Wrap filled with fresh and flavorful ingredients!"
+    ],
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 10,
+    "servings": 2,
+    "difficulty": "Easy",
+    "cuisine": "Lebanese",
+    "caloriesPerServing": 400,
+    "image": "https://cdn.dummyjson.com/recipe-images/29.webp"
+  },
+  {
+    "name": "Brazilian Caipirinha",
+    "ingredients": [
+      "Cachaça (Brazilian sugarcane spirit)",
+      "Lime",
+      "Granulated sugar",
+      "Ice cubes"
+    ],
+    "instructions": [
+      "In a glass, muddle lime wedges with granulated sugar to release the juice.",
+      "Fill the glass with ice cubes.",
+      "Pour cachaça over the ice and stir well.",
+      "Sip and enjoy the refreshing taste of the Brazilian Caipirinha!",
+      "Adjust sugar and lime to suit your taste preferences."
+    ],
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 0,
+    "servings": 1,
+    "difficulty": "Easy",
+    "cuisine": "Brazilian",
+    "caloriesPerServing": 150,
+    "image": "https://cdn.dummyjson.com/recipe-images/30.webp"
+  },
+  {
+    "name": "Spanish Patatas Bravas",
+    "ingredients": [
+      "Potatoes",
+      "Olive oil",
+      "Garlic",
+      "Smoked paprika",
+      "Tomato sauce",
+      "Mayonnaise",
+      "Hot sauce",
+      "Fresh parsley"
+    ],
+    "instructions": [
+      "Preheat oven to 425°F (220°C).",
+      "Toss diced potatoes with olive oil, minced garlic, and smoked paprika. Roast until crispy.",
+      "In a small saucepan, heat tomato sauce, mayonnaise, and hot sauce. Stir until warm.",
+      "Drizzle the sauce over the roasted potatoes and garnish with fresh parsley.",
+      "Serve these flavorful Spanish Patatas Bravas as a delicious appetizer."
+    ],
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 30,
+    "servings": 4,
+    "difficulty": "Easy",
+    "cuisine": "Spanish",
+    "caloriesPerServing": 240,
+    "image": "https://cdn.dummyjson.com/recipe-images/31.webp"
+  },
+  {
+    "name": "Vietnamese Fresh Spring Rolls",
+    "ingredients": [
+      "Rice paper wrappers",
+      "Shrimp",
+      "Rice vermicelli",
+      "Lettuce",
+      "Carrots",
+      "Cucumbers",
+      "Fresh mint leaves",
+      "Peanut dipping sauce"
+    ],
+    "instructions": [
+      "Dip rice paper wrappers in warm water to soften.",
+      "Lay a wrapper on a flat surface and fill with shrimp, rice vermicelli, lettuce, carrots, cucumber, and mint leaves.",
+      "Fold the sides of the wrapper and roll tightly to seal.",
+      "Serve these Vietnamese Fresh Spring Rolls with peanut dipping sauce.",
+      "Enjoy these light and refreshing rolls as a delightful appetizer or snack."
+    ],
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 10,
+    "servings": 4,
+    "difficulty": "Easy",
+    "cuisine": "Vietnamese",
+    "caloriesPerServing": 180,
+    "image": "https://cdn.dummyjson.com/recipe-images/32.webp"
+  },
+  {
+    "name": "Mediterranean Quinoa Salad",
+    "ingredients": [
+      "Quinoa",
+      "Cherry tomatoes",
+      "Cucumbers",
+      "Kalamata olives",
+      "Red onions",
+      "Feta cheese",
+      "Fresh parsley",
+      "Lemon vinaigrette dressing"
+    ],
+    "instructions": [
+      "In a large bowl, combine cooked quinoa, cherry tomatoes, cucumber, olives, red onion, feta cheese, and parsley.",
+      "Drizzle with lemon vinaigrette dressing and toss to combine.",
+      "Chill before serving. This Mediterranean Quinoa Salad is perfect as a refreshing side dish."
+    ],
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 15,
+    "servings": 6,
+    "difficulty": "Easy",
+    "cuisine": "Mediterranean",
+    "caloriesPerServing": 220,
+    "image": "https://cdn.dummyjson.com/recipe-images/33.webp"
+  },
+  {
+    "name": "Japanese Matcha Green Tea Ice Cream",
+    "ingredients": [
+      "Heavy cream",
+      "Whole milk",
+      "Granulated sugar",
+      "Matcha green tea powder",
+      "Egg yolks"
+    ],
+    "instructions": [
+      "In a saucepan, heat heavy cream, whole milk, and granulated sugar until it begins to steam.",
+      "Whisk in matcha green tea powder until fully combined.",
+      "In a separate bowl, whisk egg yolks. Slowly pour the hot milk mixture into the yolks, whisking continuously.",
+      "Return the mixture to the saucepan and heat until it thickens. Do not boil.",
+      "Strain the mixture and let it cool. Churn in an ice cream maker according to the manufacturer's instructions.",
+      "Freeze until firm. Indulge in the creamy goodness of Japanese Matcha Green Tea Ice Cream!"
+    ],
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 15,
+    "servings": 4,
+    "difficulty": "Medium",
+    "cuisine": "Japanese",
+    "caloriesPerServing": 280,
+    "image": "https://cdn.dummyjson.com/recipe-images/34.webp"
+  },
+  {
+    "name": "Brazilian Chocolate Brigadeiros",
+    "ingredients": [
+      "Sweetened condensed milk",
+      "Cocoa powder",
+      "Unsalted butter",
+      "Chocolate sprinkles"
+    ],
+    "instructions": [
+      "In a saucepan, combine sweetened condensed milk, cocoa powder, and unsalted butter.",
+      "Cook over medium heat, stirring constantly, until the mixture thickens and pulls away from the pan.",
+      "Let the mixture cool. Grease your hands with butter and roll into small balls.",
+      "Coat the brigadeiros in chocolate sprinkles.",
+      "These Brazilian Chocolate Brigadeiros are a delightful sweet treat!"
+    ],
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 10,
+    "servings": 8,
+    "difficulty": "Easy",
+    "cuisine": "Brazilian",
+    "caloriesPerServing": 120,
+    "image": "https://cdn.dummyjson.com/recipe-images/35.webp"
+  },
+  {
+    "name": "Mexican Chicken Enchiladas",
+    "ingredients": [
+      "Chicken breasts",
+      "Corn tortillas",
+      "Enchilada sauce",
+      "Black beans",
+      "Corn kernels",
+      "Shredded Mexican cheese blend",
+      "Fresh cilantro",
+      "Sour cream"
+    ],
+    "instructions": [
+      "Preheat oven to 375°F (190°C).",
+      "In a bowl, mix shredded chicken with black beans, corn, and chopped cilantro.",
+      "Fill each corn tortilla with the chicken mixture and roll tightly.",
+      "Place the rolled enchiladas in a baking dish, cover with enchilada sauce, and sprinkle with shredded cheese.",
+      "Bake until the cheese is melted and bubbly.",
+      "Serve hot with a dollop of sour cream. Enjoy these delicious Mexican Chicken Enchiladas!"
+    ],
+    "prepTimeMinutes": 25,
+    "cookTimeMinutes": 20,
+    "servings": 4,
+    "difficulty": "Medium",
+    "cuisine": "Mexican",
+    "caloriesPerServing": 380,
+    "image": "https://cdn.dummyjson.com/recipe-images/36.webp"
+  },
+  {
+    "name": "Thai Coconut Shrimp Curry",
+    "ingredients": [
+      "Shrimp",
+      "Coconut milk",
+      "Red curry paste",
+      "Fish sauce",
+      "Sugar",
+      "Bell peppers",
+      "Zucchini",
+      "Fresh basil leaves",
+      "Jasmine rice"
+    ],
+    "instructions": [
+      "In a pan, simmer coconut milk with red curry paste, fish sauce, and sugar.",
+      "Add sliced bell peppers and zucchini. Cook until vegetables are tender.",
+      "Add shrimp and cook until they turn pink and opaque.",
+      "Stir in fresh basil leaves.",
+      "Serve this Thai Coconut Shrimp Curry over jasmine rice for a flavorful meal."
+    ],
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 15,
+    "servings": 3,
+    "difficulty": "Medium",
+    "cuisine": "Thai",
+    "caloriesPerServing": 420,
+    "image": "https://cdn.dummyjson.com/recipe-images/37.webp"
+  },
+  {
+    "name": "Greek Spanakopita",
+    "ingredients": [
+      "Phyllo dough",
+      "Spinach",
+      "Feta cheese",
+      "Onions",
+      "Eggs",
+      "Olive oil",
+      "Dill",
+      "Salt",
+      "Pepper"
+    ],
+    "instructions": [
+      "Preheat oven to 375°F (190°C).",
+      "In a bowl, mix cooked chopped spinach with crumbled feta, chopped onions, beaten eggs, olive oil, dill, salt, and pepper.",
+      "Layer sheets of phyllo dough in a baking dish, brushing each layer with olive oil.",
+      "Spread the spinach and feta mixture over the phyllo layers.",
+      "Top with more phyllo layers, brushing each with olive oil.",
+      "Bake until golden brown. Slice and serve this delicious Greek Spanakopita!"
+    ],
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 40,
+    "servings": 8,
+    "difficulty": "Medium",
+    "cuisine": "Greek",
+    "caloriesPerServing": 280,
+    "image": "https://cdn.dummyjson.com/recipe-images/38.webp"
+  },
+  {
+    "name": "Moroccan Couscous Salad",
+    "ingredients": [
+      "Couscous",
+      "Chickpeas",
+      "Cherry tomatoes",
+      "Cucumbers",
+      "Red onions",
+      "Fresh mint leaves",
+      "Feta cheese",
+      "Lemon vinaigrette dressing"
+    ],
+    "instructions": [
+      "In a large bowl, combine cooked couscous, chickpeas, cherry tomatoes, cucumber, red onion, mint leaves, and crumbled feta.",
+      "Drizzle with lemon vinaigrette dressing and toss to combine.",
+      "Chill before serving. This Moroccan Couscous Salad makes a refreshing side dish."
+    ],
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 10,
+    "servings": 6,
+    "difficulty": "Easy",
+    "cuisine": "Moroccan",
+    "caloriesPerServing": 260,
+    "image": "https://cdn.dummyjson.com/recipe-images/39.webp"
+  },
+  {
+    "name": "Classic Mojito",
+    "ingredients": [
+      "Fresh mint leaves",
+      "Lime",
+      "Granulated sugar",
+      "White rum",
+      "Club soda",
+      "Ice cubes"
+    ],
+    "instructions": [
+      "In a glass, muddle fresh mint leaves with granulated sugar and lime wedges to release the flavors.",
+      "Add white rum and stir well.",
+      "Fill the glass with ice cubes and top with club soda.",
+      "Stir gently and garnish with a sprig of mint.",
+      "Sip and enjoy the classic and refreshing taste of a Mojito!"
+    ],
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 0,
+    "servings": 1,
+    "difficulty": "Easy",
+    "cuisine": "Cocktail",
+    "caloriesPerServing": 150,
+    "image": "https://cdn.dummyjson.com/recipe-images/40.webp"
+  },
+  {
+    "name": "Caprese Bruschetta",
+    "ingredients": [
+      "Baguette",
+      "Tomatoes",
+      "Fresh mozzarella",
+      "Fresh basil leaves",
+      "Balsamic glaze",
+      "Olive oil",
+      "Garlic",
+      "Salt",
+      "Pepper"
+    ],
+    "instructions": [
+      "Preheat the oven broiler.",
+      "Place baguette slices on a baking sheet and toast under the broiler until golden.",
+      "In a bowl, combine diced tomatoes, sliced fresh mozzarella, minced garlic, and chopped fresh basil.",
+      "Drizzle with olive oil, balsamic glaze, and season with salt and pepper.",
+      "Spoon the tomato and mozzarella mixture onto the toasted baguette slices.",
+      "Serve these delightful Caprese Bruschettas as a quick and tasty appetizer."
+    ],
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 5,
+    "servings": 6,
+    "difficulty": "Easy",
+    "cuisine": "Italian",
+    "caloriesPerServing": 150,
+    "image": "https://cdn.dummyjson.com/recipe-images/41.webp"
+  },
+  {
+    "name": "Teriyaki Chicken Stir-Fry",
+    "ingredients": [
+      "Chicken breasts",
+      "Broccoli florets",
+      "Bell peppers",
+      "Carrots",
+      "Soy sauce",
+      "Teriyaki sauce",
+      "Sesame oil",
+      "Garlic",
+      "Ginger",
+      "Rice"
+    ],
+    "instructions": [
+      "In a wok or skillet, heat sesame oil and sauté minced garlic and grated ginger until fragrant.",
+      "Add thinly sliced chicken and cook until browned.",
+      "Stir in broccoli florets, sliced bell peppers, and julienned carrots. Cook until vegetables are tender-crisp.",
+      "Pour soy sauce and teriyaki sauce over the stir-fry. Toss to combine.",
+      "Serve this quick Teriyaki Chicken Stir-Fry over cooked rice for a delicious meal."
+    ],
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 10,
+    "servings": 4,
+    "difficulty": "Easy",
+    "cuisine": "Japanese",
+    "caloriesPerServing": 320,
+    "image": "https://cdn.dummyjson.com/recipe-images/42.webp"
+  },
+  {
+    "name": "Mango Avocado Salsa",
+    "ingredients": [
+      "Mango",
+      "Avocado",
+      "Red onions",
+      "Cilantro",
+      "Lime juice",
+      "Salt",
+      "Pepper",
+      "Tortilla chips"
+    ],
+    "instructions": [
+      "In a bowl, combine diced mango, diced avocado, finely chopped red onion, and chopped cilantro.",
+      "Drizzle with fresh lime juice and season with salt and pepper. Toss gently to combine.",
+      "Serve this refreshing Mango Avocado Salsa with tortilla chips for a quick and tasty snack."
+    ],
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 0,
+    "servings": 4,
+    "difficulty": "Easy",
+    "cuisine": "Mexican",
+    "caloriesPerServing": 90,
+    "image": "https://cdn.dummyjson.com/recipe-images/43.webp"
+  },
+  {
+    "name": "Shrimp and Asparagus Stir-Fry",
+    "ingredients": [
+      "Shrimp",
+      "Asparagus",
+      "Soy sauce",
+      "Sesame oil",
+      "Garlic",
+      "Ginger",
+      "Red pepper flakes",
+      "Green onions",
+      "Noodles or rice"
+    ],
+    "instructions": [
+      "In a wok or skillet, heat sesame oil and sauté minced garlic, grated ginger, and red pepper flakes until fragrant.",
+      "Add shrimp and cook until they turn pink and opaque.",
+      "Stir in asparagus pieces and cook until crisp-tender.",
+      "Pour soy sauce over the stir-fry and toss to combine.",
+      "Serve this quick Shrimp and Asparagus Stir-Fry over cooked noodles or rice."
+    ],
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 10,
+    "servings": 3,
+    "difficulty": "Easy",
+    "cuisine": "Asian",
+    "caloriesPerServing": 250,
+    "image": "https://cdn.dummyjson.com/recipe-images/44.webp"
+  },
+  {
+    "name": "Italian Margherita Pizza",
+    "ingredients": [
+      "Pizza dough",
+      "Tomatoes",
+      "Fresh mozzarella",
+      "Fresh basil leaves",
+      "Olive oil",
+      "Garlic",
+      "Salt",
+      "Pepper"
+    ],
+    "instructions": [
+      "Preheat the oven to the highest temperature your oven can go.",
+      "Roll out pizza dough on a floured surface and transfer to a pizza stone or baking sheet.",
+      "Brush the dough with olive oil and sprinkle minced garlic over the surface.",
+      "Arrange thinly sliced tomatoes and fresh mozzarella slices on the dough.",
+      "Bake until the crust is golden and the cheese is melted and bubbly.",
+      "Top with fresh basil leaves and season with salt and pepper. Slice and serve this classic Margherita Pizza."
+    ],
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 12,
+    "servings": 4,
+    "difficulty": "Easy",
+    "cuisine": "Italian",
+    "caloriesPerServing": 280,
+    "image": "https://cdn.dummyjson.com/recipe-images/45.webp"
+  },
+  {
+    "name": "Pesto Pasta with Cherry Tomatoes",
+    "ingredients": [
+      "Penne pasta",
+      "Basil pesto sauce",
+      "Cherry tomatoes",
+      "Parmesan cheese",
+      "Salt",
+      "Pepper"
+    ],
+    "instructions": [
+      "Cook penne pasta according to package instructions. Drain and set aside.",
+      "In a pan, warm basil pesto sauce. Add cooked pasta and toss to coat evenly.",
+      "Stir in halved cherry tomatoes and cook until they soften slightly.",
+      "Season with salt and black pepper to taste. Garnish with grated Parmesan cheese.",
+      "Serve this quick and flavorful Pesto Pasta with Cherry Tomatoes for a delicious meal."
+    ],
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 10,
+    "servings": 3,
+    "difficulty": "Easy",
+    "cuisine": "Italian",
+    "caloriesPerServing": 320,
+    "image": "https://cdn.dummyjson.com/recipe-images/46.webp"
+  },
+  {
+    "name": "Hawaiian Chicken Skewers",
+    "ingredients": [
+      "Chicken breasts",
+      "Pineapple chunks",
+      "Bell peppers",
+      "Red onions",
+      "Soy sauce",
+      "Pineapple juice",
+      "Ketchup",
+      "Brown sugar",
+      "Garlic",
+      "Wooden skewers"
+    ],
+    "instructions": [
+      "Preheat the grill or grill pan.",
+      "In a bowl, whisk together soy sauce, pineapple juice, ketchup, brown sugar, and minced garlic to make the marinade.",
+      "Thread chicken chunks, pineapple chunks, bell pepper slices, and red onion wedges onto soaked wooden skewers.",
+      "Brush the skewers with the marinade and grill until the chicken is cooked through.",
+      "Serve these Hawaiian Chicken Skewers with rice or as a tasty appetizer."
+    ],
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 15,
+    "servings": 4,
+    "difficulty": "Easy",
+    "cuisine": "Hawaiian",
+    "caloriesPerServing": 280,
+    "image": "https://cdn.dummyjson.com/recipe-images/47.webp"
+  },
+  {
+    "name": "Cucumber Avocado Rolls",
+    "ingredients": [
+      "Rice",
+      "Nori sheets",
+      "Cucumbers",
+      "Avocado",
+      "Soy sauce",
+      "Pickled ginger",
+      "Wasabi"
+    ],
+    "instructions": [
+      "Place a sheet of nori on a bamboo sushi rolling mat.",
+      "Spread seasoned sushi rice evenly over the nori, leaving a small border at the top.",
+      "Arrange julienned cucumber and sliced avocado along the bottom edge of the rice.",
+      "Roll the nori tightly from the bottom, using the bamboo mat to shape the roll.",
+      "Slice the roll into bite-sized pieces. Serve these refreshing Cucumber Avocado Rolls with soy sauce, pickled ginger, and wasabi."
+    ],
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 0,
+    "servings": 3,
+    "difficulty": "Easy",
+    "cuisine": "Japanese",
+    "caloriesPerServing": 180,
+    "image": "https://cdn.dummyjson.com/recipe-images/48.webp"
+  },
+  {
+    "name": "Mediterranean Chickpea Salad",
+    "ingredients": [
+      "Chickpeas",
+      "Cherry tomatoes",
+      "Cucumbers",
+      "Red onions",
+      "Kalamata olives",
+      "Feta cheese",
+      "Olive oil",
+      "Lemon juice",
+      "Dried oregano",
+      "Salt",
+      "Pepper"
+    ],
+    "instructions": [
+      "In a large bowl, combine chickpeas, cherry tomatoes, cucumber, red onion, olives, and feta cheese.",
+      "In a small bowl, whisk together olive oil, lemon juice, dried oregano, salt, and pepper to make the dressing.",
+      "Pour the dressing over the salad and toss gently to combine.",
+      "Chill before serving. Enjoy this quick and refreshing Mediterranean Chickpea Salad."
+    ],
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 0,
+    "servings": 4,
+    "difficulty": "Easy",
+    "cuisine": "Mediterranean",
+    "caloriesPerServing": 220,
+    "image": "https://cdn.dummyjson.com/recipe-images/49.webp"
+  },
+  {
+    "name": "Pineapple Coconut Smoothie",
+    "ingredients": [
+      "Pineapple chunks",
+      "Coconut milk",
+      "Greek yogurt",
+      "Banana",
+      "Honey",
+      "Ice cubes"
+    ],
+    "instructions": [
+      "In a blender, combine pineapple chunks, coconut milk, Greek yogurt, banana, and honey.",
+      "Blend until smooth and creamy.",
+      "Add ice cubes and blend again until the smoothie is chilled.",
+      "Pour into a glass and enjoy the tropical goodness of this Pineapple Coconut Smoothie!"
+    ],
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 0,
+    "servings": 2,
+    "difficulty": "Easy",
+    "cuisine": "Smoothie",
+    "caloriesPerServing": 200,
+    "image": "https://cdn.dummyjson.com/recipe-images/50.webp"
+  }
+]
