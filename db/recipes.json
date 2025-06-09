@@ -7,7 +7,8 @@
       "Fresh mozzarella cheese",
       "Fresh basil leaves",
       "Olive oil",
-      "Salt and pepper to taste"
+      "Salt",
+      "Pepper"
     ],
     "instructions": [
       "Preheat the oven to 475°F (245°C).",
@@ -28,15 +29,15 @@
   {
     "name": "Vegetarian Stir-Fry",
     "ingredients": [
-      "Tofu, cubed",
+      "Tofu",
       "Broccoli florets",
-      "Carrots, sliced",
-      "Bell peppers, sliced",
+      "Carrots",
+      "Bell peppers",
       "Soy sauce",
-      "Ginger, minced",
-      "Garlic, minced",
+      "Ginger",
+      "Garlic",
       "Sesame oil",
-      "Cooked rice for serving"
+      "Rice"
     ],
     "instructions": [
       "In a wok, heat sesame oil over medium-high heat.",
@@ -58,10 +59,10 @@
     "name": "Chocolate Chip Cookies",
     "ingredients": [
       "All-purpose flour",
-      "Butter, softened",
+      "Butter",
       "Brown sugar",
       "White sugar",
-      "Eggs",
+      "Egg",
       "Vanilla extract",
       "Baking soda",
       "Salt",
@@ -89,13 +90,14 @@
     "name": "Chicken Alfredo Pasta",
     "ingredients": [
       "Fettuccine pasta",
-      "Chicken breast, sliced",
+      "Chicken breasts",
       "Heavy cream",
-      "Parmesan cheese, grated",
-      "Garlic, minced",
+      "Parmesan cheese",
+      "Garlic",
       "Butter",
-      "Salt and pepper to taste",
-      "Fresh parsley for garnish"
+      "Salt",
+      "Pepper",
+      "Fresh parsley"
     ],
     "instructions": [
       "Cook fettuccine pasta according to package instructions.",
@@ -118,13 +120,14 @@
     "name": "Mango Salsa Chicken",
     "ingredients": [
       "Chicken thighs",
-      "Mango, diced",
-      "Red onion, finely chopped",
-      "Cilantro, chopped",
+      "Mango",
+      "Red onions",
+      "Cilantro",
       "Lime juice",
-      "Jalapeño, minced",
-      "Salt and pepper to taste",
-      "Cooked rice for serving"
+      "Jalapeño",
+      "Salt",
+      "Pepper",
+      "Rice"
     ],
     "instructions": [
       "Season chicken thighs with salt and pepper.",
@@ -144,14 +147,15 @@
   {
     "name": "Quinoa Salad with Avocado",
     "ingredients": [
-      "Quinoa, cooked",
-      "Avocado, diced",
-      "Cherry tomatoes, halved",
-      "Cucumber, diced",
-      "Red bell pepper, diced",
-      "Feta cheese, crumbled",
+      "Quinoa",
+      "Avocado",
+      "Cherry tomatoes",
+      "Cucumbers",
+      "Red bell pepper",
+      "Feta cheese",
       "Lemon vinaigrette dressing",
-      "Salt and pepper to taste"
+      "Salt",
+      "Pepper"
     ],
     "instructions": [
       "In a large bowl, combine cooked quinoa, diced avocado, halved cherry tomatoes, diced cucumber, diced red bell pepper, and crumbled feta cheese.",
@@ -170,13 +174,14 @@
   {
     "name": "Tomato Basil Bruschetta",
     "ingredients": [
-      "Baguette, sliced",
-      "Tomatoes, diced",
-      "Fresh basil, chopped",
-      "Garlic cloves, minced",
+      "Baguette",
+      "Tomatoes",
+      "Fresh basil",
+      "Garlic",
       "Balsamic glaze",
       "Olive oil",
-      "Salt and pepper to taste"
+      "Salt",
+      "Pepper"
     ],
     "instructions": [
       "Preheat the oven to 375°F (190°C).",
@@ -197,15 +202,15 @@
   {
     "name": "Beef and Broccoli Stir-Fry",
     "ingredients": [
-      "Beef sirloin, thinly sliced",
+      "Beef sirloin",
       "Broccoli florets",
       "Soy sauce",
       "Oyster sauce",
       "Sesame oil",
-      "Garlic, minced",
-      "Ginger, minced",
+      "Garlic",
+      "Ginger",
       "Cornstarch",
-      "Cooked white rice for serving"
+      "Rice"
     ],
     "instructions": [
       "In a bowl, mix soy sauce, oyster sauce, sesame oil, and cornstarch to create the sauce.",
@@ -226,12 +231,13 @@
   {
     "name": "Caprese Salad",
     "ingredients": [
-      "Tomatoes, sliced",
-      "Fresh mozzarella cheese, sliced",
+      "Tomatoes",
+      "Fresh mozzarella cheese",
       "Fresh basil leaves",
       "Balsamic glaze",
       "Extra virgin olive oil",
-      "Salt and pepper to taste"
+      "Salt",
+      "Pepper"
     ],
     "instructions": [
       "Arrange alternating slices of tomatoes and fresh mozzarella on a serving platter.",
@@ -252,13 +258,14 @@
     "name": "Shrimp Scampi Pasta",
     "ingredients": [
       "Linguine pasta",
-      "Shrimp, peeled and deveined",
-      "Garlic, minced",
+      "Shrimp",
+      "Garlic",
       "White wine",
       "Lemon juice",
       "Red pepper flakes",
-      "Fresh parsley, chopped",
-      "Salt and pepper to taste"
+      "Fresh parsley",
+      "Salt",
+      "Pepper"
     ],
     "instructions": [
       "Cook linguine pasta according to package instructions.",
@@ -281,17 +288,17 @@
     "name": "Chicken Biryani",
     "ingredients": [
       "Basmati rice",
-      "Chicken, cut into pieces",
-      "Onions, thinly sliced",
-      "Tomatoes, chopped",
+      "Chicken thighs",
+      "Onions",
+      "Tomatoes",
       "Yogurt",
       "Ginger-garlic paste",
       "Biryani masala",
-      "Green chilies, sliced",
+      "Green chilies",
       "Fresh coriander leaves",
       "Mint leaves",
       "Ghee",
-      "Salt to taste"
+      "Salt"
     ],
     "instructions": [
       "Marinate chicken with yogurt, ginger-garlic paste, biryani masala, and salt.",
@@ -312,18 +319,18 @@
   {
     "name": "Chicken Karahi",
     "ingredients": [
-      "Chicken, cut into pieces",
-      "Tomatoes, chopped",
-      "Green chilies, sliced",
-      "Ginger, julienned",
-      "Garlic, minced",
+      "Chicken thighs",
+      "Tomatoes",
+      "Green chilies",
+      "Ginger",
+      "Garlic",
       "Coriander powder",
       "Cumin powder",
       "Red chili powder",
       "Garam masala",
       "Cooking oil",
       "Fresh coriander leaves",
-      "Salt to taste"
+      "Salt"
     ],
     "instructions": [
       "In a wok (karahi), heat cooking oil and sauté minced garlic until golden brown.",
@@ -344,9 +351,9 @@
     "name": "Aloo Keema",
     "ingredients": [
       "Ground beef",
-      "Potatoes, peeled and diced",
-      "Onions, finely chopped",
-      "Tomatoes, chopped",
+      "Potatoes",
+      "Onions",
+      "Tomatoes",
       "Ginger-garlic paste",
       "Cumin powder",
       "Coriander powder",
@@ -354,7 +361,7 @@
       "Red chili powder",
       "Cooking oil",
       "Fresh coriander leaves",
-      "Salt to taste"
+      "Salt"
     ],
     "instructions": [
       "In a pan, heat cooking oil and sauté chopped onions until golden brown.",
@@ -376,18 +383,18 @@
     "name": "Chapli Kebabs",
     "ingredients": [
       "Ground beef",
-      "Onions, finely chopped",
-      "Tomatoes, finely chopped",
-      "Green chilies, chopped",
-      "Coriander leaves, chopped",
+      "Onions",
+      "Tomatoes",
+      "Green chilies",
+      "Coriander leaves",
       "Pomegranate seeds",
       "Ginger-garlic paste",
       "Cumin powder",
       "Coriander powder",
       "Red chili powder",
-      "Egg",
+      "Eggs",
       "Cooking oil",
-      "Salt to taste"
+      "Salt"
     ],
     "instructions": [
       "In a large bowl, mix ground beef, chopped onions, tomatoes, green chilies, coriander leaves, and pomegranate seeds.",
@@ -407,14 +414,14 @@
   {
     "name": "Saag (Spinach) with Makki di Roti",
     "ingredients": [
-      "Mustard greens, washed and chopped",
-      "Spinach, washed and chopped",
-      "Cornmeal (makki ka atta)",
-      "Onions, finely chopped",
-      "Green chilies, chopped",
-      "Ginger, grated",
+      "Mustard greens",
+      "Spinach",
+      "Cornmeal",
+      "Onions",
+      "Green chilies",
+      "Ginger",
       "Ghee",
-      "Salt to taste"
+      "Salt"
     ],
     "instructions": [
       "Boil mustard greens and spinach until tender. Drain and blend into a coarse paste.",
@@ -440,11 +447,11 @@
       "Soy sauce",
       "Mirin",
       "Sesame oil",
-      "Shiitake mushrooms, sliced",
-      "Bok choy, chopped",
-      "Green onions, sliced",
-      "Soft-boiled eggs",
-      "Grilled chicken slices",
+      "Shiitake mushrooms",
+      "Bok choy",
+      "Green onions",
+      "Eggs",
+      "Chicken thighs",
       "Norwegian seaweed (nori)"
     ],
     "instructions": [
@@ -466,18 +473,18 @@
   {
     "name": "Moroccan Chickpea Tagine",
     "ingredients": [
-      "Chickpeas, cooked",
-      "Tomatoes, chopped",
-      "Carrots, diced",
-      "Onions, finely chopped",
-      "Garlic, minced",
+      "Chickpeas",
+      "Tomatoes",
+      "Carrots",
+      "Onions",
+      "Garlic",
       "Cumin",
       "Coriander",
       "Cinnamon",
       "Paprika",
       "Vegetable broth",
       "Olives",
-      "Fresh cilantro, chopped"
+      "Fresh cilantro"
     ],
     "instructions": [
       "In a tagine or large pot, sauté chopped onions and minced garlic until softened.",
@@ -498,16 +505,16 @@
   {
     "name": "Korean Bibimbap",
     "ingredients": [
-      "Cooked white rice",
-      "Beef bulgogi (marinated and grilled beef slices)",
-      "Carrots, julienned and sautéed",
-      "Spinach, blanched and seasoned",
-      "Zucchini, sliced and grilled",
-      "Bean sprouts, blanched",
-      "Fried egg",
+      "Rice",
+      "Beef bulgogi",
+      "Carrots",
+      "Spinach",
+      "Zucchini",
+      "Bean sprouts",
+      "Eggs",
       "Gochujang (Korean red pepper paste)",
       "Sesame oil",
-      "Toasted sesame seeds"
+      "Sesame seeds"
     ],
     "instructions": [
       "Arrange cooked white rice in a bowl.",
@@ -528,11 +535,11 @@
   {
     "name": "Greek Moussaka",
     "ingredients": [
-      "Eggplants, sliced",
+      "Eggplants",
       "Ground lamb or beef",
-      "Onions, finely chopped",
-      "Garlic, minced",
-      "Tomatoes, crushed",
+      "Onions",
+      "Garlic",
+      "Tomatoes",
       "Red wine",
       "Cinnamon",
       "Allspice",
@@ -565,7 +572,7 @@
   {
     "name": "Butter Chicken (Murgh Makhani)",
     "ingredients": [
-      "Chicken thighs, boneless and skinless",
+      "Chicken thighs",
       "Yogurt",
       "Ginger-garlic paste",
       "Garam masala",
@@ -575,7 +582,7 @@
       "Heavy cream",
       "Kasuri methi (dried fenugreek leaves)",
       "Sugar",
-      "Salt to taste"
+      "Salt"
     ],
     "instructions": [
       "Marinate chicken thighs in a mixture of yogurt, ginger-garlic paste, garam masala, and Kashmiri red chili powder.",
@@ -595,15 +602,15 @@
   {
     "name": "Thai Green Curry",
     "ingredients": [
-      "Chicken thighs, boneless and skinless",
+      "Chicken thighs",
       "Green curry paste",
       "Coconut milk",
       "Fish sauce",
       "Sugar",
-      "Eggplant, sliced",
-      "Bell peppers, sliced",
+      "Eggplants",
+      "Bell peppers",
       "Basil leaves",
-      "Jasmine rice for serving"
+      "Jasmine rice"
     ],
     "instructions": [
       "In a pot, simmer green curry paste in coconut milk.",
@@ -623,7 +630,7 @@
   {
     "name": "Mango Lassi",
     "ingredients": [
-      "Ripe mango, peeled and diced",
+      "Mango",
       "Yogurt",
       "Milk",
       "Honey",
@@ -648,7 +655,7 @@
   {
     "name": "Italian Tiramisu",
     "ingredients": [
-      "Espresso, brewed and cooled",
+      "Espresso",
       "Ladyfinger cookies",
       "Mascarpone cheese",
       "Heavy cream",
@@ -677,14 +684,15 @@
     "name": "Turkish Kebabs",
     "ingredients": [
       "Ground lamb or beef",
-      "Onions, grated",
-      "Garlic, minced",
-      "Parsley, finely chopped",
+      "Onions",
+      "Garlic",
+      "Parsley",
       "Cumin",
       "Coriander",
       "Red pepper flakes",
-      "Salt and pepper to taste",
-      "Flatbread for serving",
+      "Salt",
+      "Pepper",
+      "Flatbread",
       "Tahini sauce"
     ],
     "instructions": [
@@ -704,12 +712,12 @@
   {
     "name": "Blueberry Banana Smoothie",
     "ingredients": [
-      "Blueberries, fresh or frozen",
-      "Banana, peeled and sliced",
+      "Blueberries",
+      "Banana",
       "Greek yogurt",
       "Almond milk",
       "Honey",
-      "Chia seeds (optional)"
+      "Chia seeds"
     ],
     "instructions": [
       "In a blender, combine blueberries, banana, Greek yogurt, almond milk, and honey.",
@@ -730,9 +738,9 @@
     "ingredients": [
       "Corn on the cob",
       "Mayonnaise",
-      "Cotija cheese, crumbled",
+      "Cotija cheese",
       "Chili powder",
-      "Lime wedges"
+      "Lime"
     ],
     "instructions": [
       "Grill or roast corn on the cob until kernels are charred.",
@@ -751,16 +759,16 @@
   {
     "name": "Russian Borscht",
     "ingredients": [
-      "Beets, peeled and shredded",
-      "Cabbage, shredded",
-      "Potatoes, diced",
-      "Onions, finely chopped",
-      "Carrots, grated",
+      "Beets",
+      "Cabbage",
+      "Potatoes",
+      "Onions",
+      "Carrots",
       "Tomato paste",
       "Beef or vegetable broth",
-      "Garlic, minced",
+      "Garlic",
       "Bay leaves",
-      "Sour cream for serving"
+      "Sour cream"
     ],
     "instructions": [
       "In a pot, sauté chopped onions and garlic until softened.",
@@ -780,16 +788,16 @@
   {
     "name": "South Indian Masala Dosa",
     "ingredients": [
-      "Dosa batter (fermented rice and urad dal batter)",
-      "Potatoes, boiled and mashed",
-      "Onions, finely chopped",
+      "Dosa batter",
+      "Potatoes",
+      "Onions",
       "Mustard seeds",
       "Cumin seeds",
       "Curry leaves",
       "Turmeric powder",
-      "Green chilies, chopped",
+      "Green chilies",
       "Ghee",
-      "Coconut chutney for serving"
+      "Coconut chutney"
     ],
     "instructions": [
       "In a pan, heat ghee and add mustard seeds, cumin seeds, and curry leaves.",
@@ -811,13 +819,13 @@
     "name": "Lebanese Falafel Wrap",
     "ingredients": [
       "Falafel balls",
-      "Whole wheat or regular wraps",
-      "Tomatoes, diced",
-      "Cucumbers, sliced",
-      "Red onions, thinly sliced",
-      "Lettuce, shredded",
+      "Whole wheat wraps",
+      "Tomatoes",
+      "Cucumbers",
+      "Red onions",
+      "Lettuce",
       "Tahini sauce",
-      "Fresh parsley, chopped"
+      "Fresh parsley"
     ],
     "instructions": [
       "Warm falafel balls according to package instructions.",
@@ -838,7 +846,7 @@
     "name": "Brazilian Caipirinha",
     "ingredients": [
       "Cachaça (Brazilian sugarcane spirit)",
-      "Lime, cut into wedges",
+      "Lime",
       "Granulated sugar",
       "Ice cubes"
     ],
@@ -860,14 +868,14 @@
   {
     "name": "Spanish Patatas Bravas",
     "ingredients": [
-      "Potatoes, diced",
+      "Potatoes",
       "Olive oil",
-      "Garlic, minced",
+      "Garlic",
       "Smoked paprika",
       "Tomato sauce",
       "Mayonnaise",
       "Hot sauce",
-      "Fresh parsley, chopped"
+      "Fresh parsley"
     ],
     "instructions": [
       "Preheat oven to 425°F (220°C).",
@@ -888,11 +896,11 @@
     "name": "Vietnamese Fresh Spring Rolls",
     "ingredients": [
       "Rice paper wrappers",
-      "Shrimp, cooked and sliced",
-      "Rice vermicelli, cooked",
-      "Lettuce leaves",
-      "Carrots, julienned",
-      "Cucumber, julienned",
+      "Shrimp",
+      "Rice vermicelli",
+      "Lettuce",
+      "Carrots",
+      "Cucumbers",
       "Fresh mint leaves",
       "Peanut dipping sauce"
     ],
@@ -914,13 +922,13 @@
   {
     "name": "Mediterranean Quinoa Salad",
     "ingredients": [
-      "Quinoa, cooked",
-      "Cherry tomatoes, halved",
-      "Cucumber, diced",
-      "Kalamata olives, sliced",
-      "Red onion, finely chopped",
-      "Feta cheese, crumbled",
-      "Fresh parsley, chopped",
+      "Quinoa",
+      "Cherry tomatoes",
+      "Cucumbers",
+      "Kalamata olives",
+      "Red onions",
+      "Feta cheese",
+      "Fresh parsley",
       "Lemon vinaigrette dressing"
     ],
     "instructions": [
@@ -987,14 +995,14 @@
   {
     "name": "Mexican Chicken Enchiladas",
     "ingredients": [
-      "Chicken breasts, cooked and shredded",
+      "Chicken breasts",
       "Corn tortillas",
       "Enchilada sauce",
-      "Black beans, drained and rinsed",
+      "Black beans",
       "Corn kernels",
       "Shredded Mexican cheese blend",
-      "Fresh cilantro, chopped",
-      "Sour cream for serving"
+      "Fresh cilantro",
+      "Sour cream"
     ],
     "instructions": [
       "Preheat oven to 375°F (190°C).",
@@ -1015,15 +1023,15 @@
   {
     "name": "Thai Coconut Shrimp Curry",
     "ingredients": [
-      "Shrimp, peeled and deveined",
+      "Shrimp",
       "Coconut milk",
       "Red curry paste",
       "Fish sauce",
       "Sugar",
-      "Bell peppers, sliced",
-      "Zucchini, sliced",
+      "Bell peppers",
+      "Zucchini",
       "Fresh basil leaves",
-      "Jasmine rice for serving"
+      "Jasmine rice"
     ],
     "instructions": [
       "In a pan, simmer coconut milk with red curry paste, fish sauce, and sugar.",
@@ -1044,13 +1052,14 @@
     "name": "Greek Spanakopita",
     "ingredients": [
       "Phyllo dough",
-      "Spinach, chopped and cooked",
-      "Feta cheese, crumbled",
-      "Onions, finely chopped",
+      "Spinach",
+      "Feta cheese",
+      "Onions",
       "Eggs",
       "Olive oil",
-      "Dill, chopped",
-      "Salt and pepper to taste"
+      "Dill",
+      "Salt",
+      "Pepper"
     ],
     "instructions": [
       "Preheat oven to 375°F (190°C).",
@@ -1071,13 +1080,13 @@
   {
     "name": "Moroccan Couscous Salad",
     "ingredients": [
-      "Couscous, cooked",
-      "Chickpeas, cooked",
-      "Cherry tomatoes, halved",
-      "Cucumber, diced",
-      "Red onion, finely chopped",
-      "Fresh mint leaves, chopped",
-      "Feta cheese, crumbled",
+      "Couscous",
+      "Chickpeas",
+      "Cherry tomatoes",
+      "Cucumbers",
+      "Red onions",
+      "Fresh mint leaves",
+      "Feta cheese",
       "Lemon vinaigrette dressing"
     ],
     "instructions": [
@@ -1097,7 +1106,7 @@
     "name": "Classic Mojito",
     "ingredients": [
       "Fresh mint leaves",
-      "Lime, cut into wedges",
+      "Lime",
       "Granulated sugar",
       "White rum",
       "Club soda",
@@ -1121,14 +1130,15 @@
   {
     "name": "Caprese Bruschetta",
     "ingredients": [
-      "Baguette, sliced",
-      "Tomatoes, diced",
-      "Fresh mozzarella, sliced",
+      "Baguette",
+      "Tomatoes",
+      "Fresh mozzarella",
       "Fresh basil leaves",
       "Balsamic glaze",
       "Olive oil",
-      "Garlic, minced",
-      "Salt and pepper to taste"
+      "Garlic",
+      "Salt",
+      "Pepper"
     ],
     "instructions": [
       "Preheat the oven broiler.",
@@ -1149,16 +1159,16 @@
   {
     "name": "Teriyaki Chicken Stir-Fry",
     "ingredients": [
-      "Chicken breast, thinly sliced",
+      "Chicken breasts",
       "Broccoli florets",
-      "Bell peppers, sliced",
-      "Carrots, julienned",
+      "Bell peppers",
+      "Carrots",
       "Soy sauce",
       "Teriyaki sauce",
       "Sesame oil",
-      "Garlic, minced",
-      "Ginger, grated",
-      "Cooked rice for serving"
+      "Garlic",
+      "Ginger",
+      "Rice"
     ],
     "instructions": [
       "In a wok or skillet, heat sesame oil and sauté minced garlic and grated ginger until fragrant.",
@@ -1178,13 +1188,14 @@
   {
     "name": "Mango Avocado Salsa",
     "ingredients": [
-      "Mango, diced",
-      "Avocado, diced",
-      "Red onion, finely chopped",
-      "Cilantro, chopped",
+      "Mango",
+      "Avocado",
+      "Red onions",
+      "Cilantro",
       "Lime juice",
-      "Salt and pepper to taste",
-      "Tortilla chips for serving"
+      "Salt",
+      "Pepper",
+      "Tortilla chips"
     ],
     "instructions": [
       "In a bowl, combine diced mango, diced avocado, finely chopped red onion, and chopped cilantro.",
@@ -1202,15 +1213,15 @@
   {
     "name": "Shrimp and Asparagus Stir-Fry",
     "ingredients": [
-      "Shrimp, peeled and deveined",
-      "Asparagus spears, trimmed and cut into pieces",
+      "Shrimp",
+      "Asparagus",
       "Soy sauce",
       "Sesame oil",
-      "Garlic, minced",
-      "Ginger, grated",
+      "Garlic",
+      "Ginger",
       "Red pepper flakes",
-      "Green onions, sliced",
-      "Cooked noodles or rice for serving"
+      "Green onions",
+      "Noodles or rice"
     ],
     "instructions": [
       "In a wok or skillet, heat sesame oil and sauté minced garlic, grated ginger, and red pepper flakes until fragrant.",
@@ -1231,12 +1242,13 @@
     "name": "Italian Margherita Pizza",
     "ingredients": [
       "Pizza dough",
-      "Tomatoes, thinly sliced",
-      "Fresh mozzarella, sliced",
+      "Tomatoes",
+      "Fresh mozzarella",
       "Fresh basil leaves",
       "Olive oil",
-      "Garlic, minced",
-      "Salt and pepper to taste"
+      "Garlic",
+      "Salt",
+      "Pepper"
     ],
     "instructions": [
       "Preheat the oven to the highest temperature your oven can go.",
@@ -1259,9 +1271,10 @@
     "ingredients": [
       "Penne pasta",
       "Basil pesto sauce",
-      "Cherry tomatoes, halved",
-      "Parmesan cheese, grated",
-      "Salt and black pepper to taste"
+      "Cherry tomatoes",
+      "Parmesan cheese",
+      "Salt",
+      "Pepper"
     ],
     "instructions": [
       "Cook penne pasta according to package instructions. Drain and set aside.",
@@ -1281,16 +1294,16 @@
   {
     "name": "Hawaiian Chicken Skewers",
     "ingredients": [
-      "Chicken breasts, cut into chunks",
+      "Chicken breasts",
       "Pineapple chunks",
-      "Bell peppers, sliced",
-      "Red onion, cut into wedges",
+      "Bell peppers",
+      "Red onions",
       "Soy sauce",
       "Pineapple juice",
       "Ketchup",
       "Brown sugar",
-      "Garlic, minced",
-      "Wooden skewers, soaked in water"
+      "Garlic",
+      "Wooden skewers"
     ],
     "instructions": [
       "Preheat the grill or grill pan.",
@@ -1310,12 +1323,13 @@
   {
     "name": "Cucumber Avocado Rolls",
     "ingredients": [
-      "Sushi rice, seasoned",
+      "Rice",
       "Nori sheets",
-      "Cucumber, julienned",
-      "Avocado, sliced",
-      "Soy sauce for dipping",
-      "Pickled ginger and wasabi for serving"
+      "Cucumbers",
+      "Avocado",
+      "Soy sauce",
+      "Pickled ginger",
+      "Wasabi"
     ],
     "instructions": [
       "Place a sheet of nori on a bamboo sushi rolling mat.",
@@ -1335,16 +1349,17 @@
   {
     "name": "Mediterranean Chickpea Salad",
     "ingredients": [
-      "Canned chickpeas, drained and rinsed",
-      "Cherry tomatoes, halved",
-      "Cucumber, diced",
-      "Red onion, finely chopped",
-      "Kalamata olives, sliced",
-      "Feta cheese, crumbled",
+      "Chickpeas",
+      "Cherry tomatoes",
+      "Cucumbers",
+      "Red onions",
+      "Kalamata olives",
+      "Feta cheese",
       "Olive oil",
       "Lemon juice",
       "Dried oregano",
-      "Salt and pepper to taste"
+      "Salt",
+      "Pepper"
     ],
     "instructions": [
       "In a large bowl, combine chickpeas, cherry tomatoes, cucumber, red onion, olives, and feta cheese.",
@@ -1363,10 +1378,10 @@
   {
     "name": "Pineapple Coconut Smoothie",
     "ingredients": [
-      "Pineapple chunks, fresh or frozen",
+      "Pineapple chunks",
       "Coconut milk",
       "Greek yogurt",
-      "Banana, peeled and sliced",
+      "Banana",
       "Honey",
       "Ice cubes"
     ],
