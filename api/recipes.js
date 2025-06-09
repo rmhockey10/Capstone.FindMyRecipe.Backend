@@ -8,7 +8,7 @@ import parseIngredients from "#middleware/parseIngredients";
 router.route("/").get(parseIngredients, async (req, res) => {
   const recipes = await getRecipesByIngredients(req.ingredients);
 
-  if (!recipes || recipes.length === 0) {
+  if (!recipes) {
     return res.status(404).send("No recipes found.");
   }
 
