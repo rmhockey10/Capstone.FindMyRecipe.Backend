@@ -27,6 +27,9 @@ router
     res.send(token);
   });
 
+// GET /user
+// Returns the currently authenticated user's basic info (id and username)
+// Requires a valid JWT via requireUser middleware
 router.route("/user").get(requireUser, async (req, res) => {
   const { id, username } = req.user;
   res.send({ id, username });
