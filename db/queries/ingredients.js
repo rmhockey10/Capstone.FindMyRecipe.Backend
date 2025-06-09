@@ -38,6 +38,7 @@ export async function getIngredients() {
   const sql = `
   SELECT *
   FROM ingredients
+  ORDER BY name ASC;
   `;
   const { rows: ingredients } = await db.query(sql);
   return ingredients;
