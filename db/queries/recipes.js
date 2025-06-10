@@ -79,9 +79,10 @@ export async function getRecipeById(id) {
 }
 
 /**
- * Finds recipes that contain ALL of a given list of ingredients.
+ * Finds recipes that contain ALL of a given list of ingredients,
+ * and returns the full recipe including their ingredient lists.
  * @param {string[]} ingredientNames - An array of ingredient names to search for.
- * @returns {Promise<Object[]>} An array of recipes that match.
+ * @returns {Promise<Object[]>} An array of complete recipe objects that match.
  */
 export async function getRecipeByIngredients(ingredients) {
   if (!ingredients || ingredients.length === 0) {
@@ -94,18 +95,34 @@ export async function getRecipeByIngredients(ingredients) {
     .join(", ");
 
   const sql = `
-    SELECT *
-    FROM recipes
-    JOIN
+    SELECT
+      *,
+      ARRAY_AGG(ingredients.name) AS ingredients
+    FROM
+      recipes
+    LEFT JOIN
       recipes_ingredients ON recipes.id = recipes_ingredients.recipes_id
-    JOIN
+    LEFT JOIN
       ingredients ON recipes_ingredients.ingredients_id = ingredients.id
     WHERE
-      ingredients.name IN (${ingredientPlaceholders})
+      recipes.id IN (
+        SELECT
+          recipes.id
+        FROM
+          recipes
+        JOIN
+          recipes_ingredients ON recipes.id = recipes_ingredients.recipes_id
+        JOIN
+          ingredients ON recipes_ingredients.ingredients_id = ingredients.id
+        WHERE
+          ingredients.name IN (${ingredientPlaceholders})
+        GROUP BY
+          recipes.id
+        HAVING
+          COUNT(DISTINCT ingredients.id) = ${countPlaceholder}
+      )
     GROUP BY
-      recipes.id
-    HAVING
-      COUNT(DISTINCT ingredients.id) = $${ingredientCount + 1};
+      recipes.id;
   `;
 
   const params = [...ingredients, ingredientCount];
@@ -118,12 +135,12 @@ export async function getRecipeByIngredients(ingredients) {
 /**
  * Retrieves a single recipe by its ID, including a list of its ingredients.
  * @param {number} id - The ID of the recipe to retrieve.
- * @returns {Promise<Object|undefined>} The recipe object with an 'ingredients' array, or undefined if not found.
+ * @returns {Promise<Object|undefined>} The recipe object with an 'ingredients' array.
  */
 export async function getRecipeByIdWithIngredients(id) {
   const sql = `
     SELECT
-      recipes.*,
+      *,
       ARRAY_AGG(ingredients.name) AS ingredients
     FROM
       recipes
