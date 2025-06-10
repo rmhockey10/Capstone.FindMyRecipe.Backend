@@ -4,7 +4,7 @@ export default router;
 
 import {
   getRecipeById,
-  getRecipesByIngredients,
+  getRecipeByIngredients,
   getRecipes,
 } from "#db/queries/recipes";
 import parseIngredients from "#middleware/parseIngredients";
@@ -12,7 +12,7 @@ import parseIngredients from "#middleware/parseIngredients";
 // GET /recipes
 // Returns recipes that include all selected ingredient IDs
 router.route("/").get(parseIngredients, async (req, res) => {
-  const recipes = await getRecipesByIngredients(req.ingredients);
+  const recipes = await getRecipeByIngredients(req.ingredients);
 
   if (!recipes) {
     return res.status(404).send("No recipes found.");
