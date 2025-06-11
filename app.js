@@ -22,8 +22,8 @@ app.use(getUserFromToken);
 app.get("/", (req, res) => res.send("Hello, World!"));
 
 app.use("/users", usersRouter);
-app.use("/recipes ", recipesRouter);
-app.use("/ingredients ", ingredientsRouter);
+app.use("/recipes", recipesRouter);
+app.use("/ingredients", ingredientsRouter);
 
 app.use(handlePostgresErrors);
 app.use((err, req, res, next) => {
