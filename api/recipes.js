@@ -6,7 +6,11 @@ import {
   getRecipeById,
   getRecipeByIngredients,
   getRecipes,
+  createRecipe,
+  getRecipeByIdWithIngredie,
 } from "#db/queries/recipes";
+import { createIngredient } from "#db/queries/ingredients";
+import { createRecipeIngredient } from "#db/queries/recipes_ingredients";
 import parseIngredients from "#middleware/parseIngredients";
 
 // GET /recipes
@@ -47,4 +51,45 @@ router.route("/").get(async (req, res) => {
   }
 
   res.send(recipes);
+});
+
+router.post("/recipes", async (req, res, next) => {
+  try {
+    const {
+      name,
+      instructions,
+      prepTimeMinutes,
+      cookTimeMinutes,
+      cuisine,
+      servings,
+      difficulty,
+      caloriesPerServing,
+      image,
+      ingredients, // array of strings
+    } = req.body;
+
+    const newRecipe = await createRecipe(
+      name,
+      JSON.stringify(instructions),
+      prepTimeMinutes,
+      cookTimeMinutes,
+      cuisine,
+      servings,
+      difficulty,
+      caloriesPerServing,
+      image
+    );
+
+    for (const ingredientName of ingredients) {
+      const ingredient = await createIngredient(ingredientName);
+      await createRecipeIngredient(newRecipe.id, ingredient.id);
+    }
+
+    // Retrieve full recipe with all linked ingredients
+    const fullRecipe = await getRecipeByIdWithIngredie(newRecipe.id);
+
+    res.status(201).json(fullRecipe);
+  } catch (err) {
+    next(err);
+  }
 });
