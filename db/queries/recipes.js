@@ -96,7 +96,7 @@ export async function getRecipeByIngredients(ingredients) {
 
   const sql = `
     SELECT
-      *,
+      recipes.*,
       ARRAY_AGG(ingredients.name) AS ingredients
     FROM
       recipes
@@ -119,7 +119,7 @@ export async function getRecipeByIngredients(ingredients) {
         GROUP BY
           recipes.id
         HAVING
-          COUNT(DISTINCT ingredients.id) = ${countPlaceholder}
+          COUNT(DISTINCT ingredients.id) = $${ingredientCount + 1}
       )
     GROUP BY
       recipes.id;
@@ -140,7 +140,7 @@ export async function getRecipeByIngredients(ingredients) {
 export async function getRecipeByIdWithIngredients(id) {
   const sql = `
     SELECT
-      *,
+      recipes.*,
       ARRAY_AGG(ingredients.name) AS ingredients
     FROM
       recipes
