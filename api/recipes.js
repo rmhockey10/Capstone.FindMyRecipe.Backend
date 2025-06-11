@@ -56,7 +56,7 @@ router
 // GET /recipes
 // Returns all recipes in the database
 // IS a stretch goal put it in just in case we use it
-router.route("/").get(async (req, res) => {
+/**router.route("/").get(async (req, res) => {
   const recipes = await getRecipes();
 
   if (!recipes) {
@@ -64,4 +64,4 @@ router.route("/").get(async (req, res) => {
   }
 
   res.send(recipes);
-});
+});*/
