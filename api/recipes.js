@@ -3,13 +3,11 @@ const router = express.Router();
 export default router;
 
 import {
-  getRecipeById,
   getRecipeByIngredients,
   getRecipes,
   getRecipeByIdWithIngredie,
 } from "#db/queries/recipes";
-import { createIngredient } from "#db/queries/ingredients";
-import { createRecipeIngredient } from "#db/queries/recipes_ingredients";
+
 import parseIngredients from "#middleware/parseIngredients";
 
 // GET /recipes
