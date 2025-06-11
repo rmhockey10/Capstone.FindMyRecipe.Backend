@@ -119,7 +119,7 @@ export async function getRecipeByIngredients(ingredients) {
         GROUP BY
           recipes.id
         HAVING
-          COUNT(DISTINCT ingredients.id) = ${countPlaceholder}
+          COUNT(DISTINCT ingredients.id) = $${ingredientCount + 1}
       )
     GROUP BY
       recipes.id;
