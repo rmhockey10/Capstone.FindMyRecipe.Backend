@@ -7,6 +7,7 @@ import {
   getRecipes,
   getRecipeByIdWithIngredients,
 } from "#db/queries/recipes";
+import requireBody from "#middleware/requireBody";
 
 import parseIngredients from "#middleware/parseIngredients";
 
@@ -41,17 +42,9 @@ router.param("id", async (req, res, next, id) => {
 
 // GET /recipes/:id
 // Returns a single recipe (preloaded by router.param)
-router
-  .route("/:id")
-  .get((req, res) => {
-    res.send(req.recipe);
-  })
-
-  .post(requireBody(["ingredients"]), async (req, res) => {
-    const { ingredients } = req.body;
-    const recipe = await getRecipeByIdWithIngredients(ingredients);
-    res.status(201).send(recipe);
-  });
+router.route("/:id").get((req, res) => {
+  res.send(req.recipe);
+});
 
 // GET /recipes
 // Returns all recipes in the database
