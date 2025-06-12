@@ -5,7 +5,7 @@ export default router;
 import {
   getRecipeByIngredients,
   getRecipes,
-  getRecipeByIdWithIngredie,
+  getRecipeByIdWithIngredients,
 } from "#db/queries/recipes";
 
 import parseIngredients from "#middleware/parseIngredients";
@@ -33,7 +33,7 @@ router
 // Preload a single recipe by :id
 // Attaches the recipe to req.recipe if found, or sends 404
 router.param("id", async (req, res, next, id) => {
-  const recipe = await getRecipeByIdWithIngredie(id);
+  const recipe = await getRecipeByIdWithIngredients(id);
   if (!recipe) return res.status(404).send("recipe not found.");
   req.recipe = recipe;
   next();
@@ -49,7 +49,7 @@ router
 
   .post(requireBody(["ingredients"]), async (req, res) => {
     const { ingredients } = req.body;
-    const recipe = await getRecipeByIdWithIngredie(ingredients);
+    const recipe = await getRecipeByIdWithIngredients(ingredients);
     res.status(201).send(recipe);
   });
 
