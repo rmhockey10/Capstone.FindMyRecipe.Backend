@@ -126,10 +126,8 @@ export async function getRecipeByIngredients(ingredients) {
   `;
 
   const params = [...ingredients, ingredientCount];
-  const {
-    rows: [recipe],
-  } = await db.query(sql, params);
-  return recipe;
+  const { rows: recipes } = await db.query(sql, params);
+  return recipes;
 }
 
 /**
