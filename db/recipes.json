@@ -5,7 +5,7 @@
       "Pizza dough",
       "Tomato sauce",
       "Fresh mozzarella cheese",
-      "Fresh basil leaves",
+      "Fresh basil",
       "Olive oil",
       "Salt",
       "Pepper"
@@ -61,7 +61,7 @@
       "All-purpose flour",
       "Butter",
       "Brown sugar",
-      "White sugar",
+      "Sugar",
       "Eggs",
       "Vanilla extract",
       "Baking soda",
@@ -151,7 +151,7 @@
       "Avocado",
       "Cherry tomatoes",
       "Cucumbers",
-      "Red bell pepper",
+      "Red bell peppers",
       "Feta cheese",
       "Lemon vinaigrette dressing",
       "Salt",
@@ -233,7 +233,7 @@
     "ingredients": [
       "Tomatoes",
       "Fresh mozzarella cheese",
-      "Fresh basil leaves",
+      "Fresh basil",
       "Balsamic glaze",
       "Extra virgin olive oil",
       "Salt",
@@ -296,7 +296,7 @@
       "Biryani masala",
       "Green chilies",
       "Fresh coriander leaves",
-      "Mint leaves",
+      "Fresh Mint leaves",
       "Ghee",
       "Salt"
     ],
@@ -386,7 +386,7 @@
       "Onions",
       "Tomatoes",
       "Green chilies",
-      "Coriander leaves",
+      "Fresh coriander leaves",
       "Pomegranate seeds",
       "Ginger-garlic paste",
       "Cumin powder",
@@ -452,7 +452,7 @@
       "Green onions",
       "Eggs",
       "Chicken thighs",
-      "Norwegian seaweed (nori)"
+      "Nori"
     ],
     "instructions": [
       "Cook ramen noodles according to package instructions and set aside.",
@@ -478,8 +478,8 @@
       "Carrots",
       "Onions",
       "Garlic",
-      "Cumin",
-      "Coriander",
+      "Cumin powder",
+      "Coriander powder",
       "Cinnamon",
       "Paprika",
       "Vegetable broth",
@@ -536,7 +536,7 @@
     "name": "Greek Moussaka",
     "ingredients": [
       "Eggplants",
-      "Ground lamb or beef",
+      "Ground lamb",
       "Onions",
       "Garlic",
       "Tomatoes",
@@ -609,7 +609,7 @@
       "Sugar",
       "Eggplants",
       "Bell peppers",
-      "Basil leaves",
+      "Fresh basil",
       "Jasmine rice"
     ],
     "instructions": [
@@ -683,12 +683,12 @@
   {
     "name": "Turkish Kebabs",
     "ingredients": [
-      "Ground lamb or beef",
+      "Ground lamb",
       "Onions",
       "Garlic",
-      "Parsley",
-      "Cumin",
-      "Coriander",
+      "Fresh parsley",
+      "Cumin powder",
+      "Coriander powder",
       "Red pepper flakes",
       "Salt",
       "Pepper",
@@ -847,7 +847,7 @@
     "ingredients": [
       "Cachaça (Brazilian sugarcane spirit)",
       "Lime",
-      "Granulated sugar",
+      "Sugar",
       "Ice cubes"
     ],
     "instructions": [
@@ -948,8 +948,8 @@
     "name": "Japanese Matcha Green Tea Ice Cream",
     "ingredients": [
       "Heavy cream",
-      "Whole milk",
-      "Granulated sugar",
+      "Milk",
+      "Sugar",
       "Matcha green tea powder",
       "Egg yolks"
     ],
@@ -1030,7 +1030,7 @@
       "Sugar",
       "Bell peppers",
       "Zucchini",
-      "Fresh basil leaves",
+      "Fresh basil",
       "Jasmine rice"
     ],
     "instructions": [
@@ -1107,7 +1107,7 @@
     "ingredients": [
       "Fresh mint leaves",
       "Lime",
-      "Granulated sugar",
+      "Sugar",
       "White rum",
       "Club soda",
       "Ice cubes"
@@ -1132,8 +1132,8 @@
     "ingredients": [
       "Baguette",
       "Tomatoes",
-      "Fresh mozzarella",
-      "Fresh basil leaves",
+      "Fresh mozzarella cheese",
+      "Fresh basil",
       "Balsamic glaze",
       "Olive oil",
       "Garlic",
@@ -1221,7 +1221,7 @@
       "Ginger",
       "Red pepper flakes",
       "Green onions",
-      "Noodles or rice"
+      "Rice"
     ],
     "instructions": [
       "In a wok or skillet, heat sesame oil and sauté minced garlic, grated ginger, and red pepper flakes until fragrant.",
@@ -1243,8 +1243,8 @@
     "ingredients": [
       "Pizza dough",
       "Tomatoes",
-      "Fresh mozzarella",
-      "Fresh basil leaves",
+      "Fresh mozzarella cheese",
+      "Fresh basil",
       "Olive oil",
       "Garlic",
       "Salt",
@@ -1324,7 +1324,7 @@
     "name": "Cucumber Avocado Rolls",
     "ingredients": [
       "Rice",
-      "Nori sheets",
+      "Nori",
       "Cucumbers",
       "Avocado",
       "Soy sauce",
