@@ -29,6 +29,9 @@ router
 router.param("id", async (req, res, next, id) => {
   const recipe = await getRecipeByIdWithIngredients(id);
   if (!recipe) return res.status(404).send("recipe not found.");
+
+  recipe.instructions = JSON.parse(recipe.instructions);
+
   req.recipe = recipe;
   next();
 });
