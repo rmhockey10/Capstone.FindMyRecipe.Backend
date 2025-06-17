@@ -79,12 +79,85 @@ export async function getRecipeById(id) {
 }
 
 /**
+ * Retrieves a single recipe by its ID, including a list of its ingredients.
+ * @param {number} id - The ID of the recipe to retrieve.
+ * @returns {Promise<Object|undefined>} The recipe object with an 'ingredients' array.
+ */
+export async function getRecipeByIdWithIngredients(id) {
+  const sql = `
+    SELECT
+      recipes.*,
+      ARRAY_AGG(ingredients.name) AS ingredients
+    FROM
+      recipes
+    LEFT JOIN
+      recipes_ingredients ON recipes.id = recipes_ingredients.recipes_id
+    LEFT JOIN
+      ingredients ON recipes_ingredients.ingredients_id = ingredients.id
+    WHERE
+      recipes.id = $1
+    GROUP BY
+      recipes.id;
+  `;
+  const {
+    rows: [recipe],
+  } = await db.query(sql, [id]);
+  return recipe;
+}
+
+/**
+ * Finds recipes that contain ANY of a given list of ingredients.
+ * @param {string[]} ingredientNames - An array of ingredient names to search for.
+ * @returns {Promise<Object[]>} An array of complete recipe objects that match.
+ */
+export async function getRecipeByIngredients(ingredients) {
+  if (!ingredients || ingredients.length === 0) {
+    return [];
+  }
+
+  const ingredientPlaceholders = ingredients
+    .map((_, i) => `$${i + 1}`)
+    .join(", ");
+
+  const sql = `
+    SELECT
+      recipes.*,
+      ARRAY_AGG(ingredients.name) AS ingredients
+    FROM
+      recipes
+    LEFT JOIN
+      recipes_ingredients ON recipes.id = recipes_ingredients.recipes_id
+    LEFT JOIN
+      ingredients ON recipes_ingredients.ingredients_id = ingredients.id
+    WHERE
+      recipes.id IN (
+        SELECT DISTINCT
+          recipes_ingredients.recipes_id
+        FROM
+          recipes_ingredients
+        JOIN
+          ingredients ON recipes_ingredients.ingredients_id = ingredients.id
+        WHERE
+          ingredients.name IN (${ingredientPlaceholders})
+      )
+    GROUP BY
+      recipes.id;
+  `;
+
+  const params = ingredients;
+  const { rows: recipes } = await db.query(sql, params);
+  return recipes;
+}
+
+// OLD CODE THAT MAY BE USEFUL IN THE FUTURE, DO NOT TOUCH!!!
+
+/**
  * Finds recipes that contain ALL of a given list of ingredients,
  * and returns the full recipe including their ingredient lists.
  * @param {string[]} ingredientNames - An array of ingredient names to search for.
  * @returns {Promise<Object[]>} An array of complete recipe objects that match.
  */
-export async function getRecipeByIngredients(ingredients) {
+/*export async function getRecipeByIngredients(ingredients) {
   if (!ingredients || ingredients.length === 0) {
     return [];
   }
@@ -128,31 +201,4 @@ export async function getRecipeByIngredients(ingredients) {
   const params = [...ingredients, ingredientCount];
   const { rows: recipes } = await db.query(sql, params);
   return recipes;
-}
-
-/**
- * Retrieves a single recipe by its ID, including a list of its ingredients.
- * @param {number} id - The ID of the recipe to retrieve.
- * @returns {Promise<Object|undefined>} The recipe object with an 'ingredients' array.
- */
-export async function getRecipeByIdWithIngredients(id) {
-  const sql = `
-    SELECT
-      recipes.*,
-      ARRAY_AGG(ingredients.name) AS ingredients
-    FROM
-      recipes
-    LEFT JOIN
-      recipes_ingredients ON recipes.id = recipes_ingredients.recipes_id
-    LEFT JOIN
-      ingredients ON recipes_ingredients.ingredients_id = ingredients.id
-    WHERE
-      recipes.id = $1
-    GROUP BY
-      recipes.id;
-  `;
-  const {
-    rows: [recipe],
-  } = await db.query(sql, [id]);
-  return recipe;
-}
+}*/
